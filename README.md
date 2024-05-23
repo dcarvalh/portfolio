@@ -1,2 +1,2 @@
-# portfolioWeb
+# portfolio
 Personal portfolio Website
