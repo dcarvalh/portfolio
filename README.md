@@ -6,11 +6,9 @@ Personal portfolio Website
 
 
 ### MIT License - All code
-The contect of this work (code) is licensed under a
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+The content of this work (code) is licensed under a MIT license.
 
-
-LICENSE-CC-BY-NC - All content
+### LICENSE-CC-BY-NC - All content
 
 The content of this work (text, images, data) is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
