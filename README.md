@@ -2,13 +2,17 @@
 Personal portfolio Website
 
 
-Lincensing
-MIT License - All code
+## Licensing [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+
+### MIT License - All code
+The contect of this work (code) is licensed under a
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+
 LICENSE-CC-BY-NC - All content
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
-
-This work is licensed under a
+The content of this work (text, images, data) is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
 [![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
