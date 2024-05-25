@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio Website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -R node_modules/startbootstrap-resume/dist/* ./",
+    "start": "concurrently \"lite-server\" \"/mnt/c/Program\\ Files/Google/Chrome/Application/chrome.exe http://localhost:3000\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "startbootstrap-resume": "^7.0.6"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lite-server": "^2.6.1"
+  }
+}
