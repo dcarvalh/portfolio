@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "cp -R node_modules/startbootstrap-resume/dist/* ./",
-    "start": "concurrently \"lite-server\" \"/mnt/c/Program\\ Files/Google/Chrome/Application/chrome.exe http://localhost:3000\""
+    "server": "concurrently \"lite-server\" \"/mnt/c/Program\\ Files/Google/Chrome/Application/chrome.exe http://localhost:3000\"",
+    "start": "lite-server"
   },
   "keywords": [],
   "author": "",
