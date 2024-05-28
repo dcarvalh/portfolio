@@ -1,9 +1,8 @@
 # portfolio
-Personal portfolio Website
+Personal portfolio Website showcasing my work and academic experiences.
 
 
 ## Licensing [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
-
 
 ### MIT License - All code
 The content of this work (code) is licensed under a MIT license.
