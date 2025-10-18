@@ -7,16 +7,27 @@
 // Scripts
 // 
 
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', () => {
 
-    // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
-    if (sideNav) {
+    const initializeScrollSpy = () => {
+        if (!sideNav) {
+            return;
+        }
+        const existing = bootstrap.ScrollSpy.getInstance(document.body);
+        if (existing) {
+            existing.refresh();
+            return;
+        }
         new bootstrap.ScrollSpy(document.body, {
             target: '#sideNav',
             rootMargin: '0px 0px -40%',
         });
     };
+
+    initializeScrollSpy();
+
+    window.addEventListener('languageChanged', initializeScrollSpy);
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');

@@ -1,0 +1,229 @@
+{
+  "head": {
+    "title": "Portfolio - David Carvalho"
+  },
+  "nav": {
+    "brand": {
+      "short": "David Carvalho"
+    },
+    "toggler": "Basculer la navigation",
+    "links": {
+      "about": "À propos",
+      "experience": "Expérience",
+      "education": "Éducation",
+      "skills": "Compétences",
+      "volunteering": "Bénévolat"
+    },
+    "language": {
+      "label": "Langue",
+      "options": {
+        "en": "Anglais",
+        "fr": "Français",
+        "pt": "Portugais"
+      }
+    }
+  },
+  "about": {
+    "heading": {
+      "first": "David",
+      "last": "Carvalho"
+    },
+    "location": "Genève, Suisse ·",
+    "email": "david.belo.carvalho@gmail.com",
+    "lead": "Bonjour ! <span class=\"wave\">👋</span><br /><br /><strong>En bref : </strong> Je suis ingénieur logiciel avec une expérience au CERN et dans l'industrie pharmaceutique, où j'ai développé des systèmes de supervision industriels et dirigé des projets d'automatisation testant des PLC. Je maîtrise Python, C++ et les systèmes de contrôle temps réel, avec une solide capacité à travailler à l'interface entre l'IT et l'OT. Titulaire d'un MSc en génie électrique et informatique, je suis spécialisé en systèmes de contrôle, logiciels et tests. Par le passé, j'ai encadré de jeunes ingénieurs et coordonné des équipes. Je suis également passionné d'aéronautique, de science des données et de DML*. Je parle couramment le portugais et l'anglais, et j'ai un bon niveau de français.<br /><br />*</small><small><small><small>DML - Drinking Matcha Lattes 🍵</small></small></small></small>"
+  },
+  "experience": {
+    "title": "Expérience",
+    "roles": {
+      "automationEngineer": {
+        "title": "Ingénieur automatisme",
+        "company": "SKAN",
+        "items": {
+          "item1": "Développer des systèmes de contrôle SCADA pour des machines pharmaceutiques, en garantissant une documentation approfondie et la conformité aux normes GMP. Utilisation de zenon, C# et SQL pour le développement.",
+          "item2": "Collaborer avec les clients, chefs de projet et équipes d'ingénierie pour fournir des solutions de contrôle complètes, en intégrant les logiciels SCADA à une architecture réseau robuste pour assurer des performances fluides.",
+          "item3": "Traduire des exigences complexes et parfois floues en plans d'ingénierie clairs et actionnables, avec un souci constant de l'expérience utilisateur finale"
+        },
+        "dates": "Janvier 2025 - Aujourd'hui",
+        "location": "Bâle, Suisse"
+      },
+      "controlFellow": {
+        "title": "Ingénieur logiciel de contrôle, Fellow",
+        "company": "CERN - Organisation européenne pour la recherche nucléaire",
+        "items": {
+          "item1": "Conçu, développé, mis en service et maintenu de grands systèmes SCADA distribués critiques pour l'exploitation des centrales de convertisseurs de puissance du CERN : création de scripts, bibliothèques et interfaces graphiques avec CTRL++, un langage basé sur la syntaxe C++.",
+          "item2": "Dirigé et développé un cadre CI/CD en Python testant automatiquement les logiciels des applications PLC Siemens selon les spécifications des projets : création de tests et gestion des pipelines via GitLab CI.",
+          "item3": "Supervisé pendant 9 mois un étudiant technique chargé de consolider le cadre CI/CD.",
+          "item4": "Coordonné une équipe de 5 personnes fournissant un support interne pour les logiciels et matériels de contrôle temps réel : utilisation de JIRA pour le suivi et la gestion des tickets.",
+          "item5": "Résolu des incidents opérationnels urgents sur les systèmes de contrôle des convertisseurs de puissance en assurant une astreinte 24/7 tous les 2 à 3 mois."
+        },
+        "dates": "Mars 2022 - Février 2024",
+        "location": "Genève, Suisse"
+      },
+      "controlPjas": {
+        "title": "Ingénieur logiciel de contrôle, PJAS",
+        "company": "CERN - Organisation européenne pour la recherche nucléaire",
+        "items": {
+          "item1": "Développé des applications SCADA pour le contrôle des centrales de convertisseurs de puissance du CERN, y compris des systèmes critiques pour plusieurs accélérateurs : développement de scripts, bibliothèques et interfaces avec CTRL++ (basé sur C++).",
+          "item2": "Implémenté des protocoles de communication industrielle entre les équipements terrain et le SCADA : S7, IEC-104 et MODBUS.",
+          "item3": "Développé des scripts Python, Bash et PowerShell afin d'automatiser une structure cohérente de répertoires pour les projets de l'équipe."
+        },
+        "dates": "Mars 2019 - Février 2022",
+        "location": "Genève, Suisse"
+      },
+      "synopsysIntern": {
+        "title": "Stagiaire",
+        "company": "Synopsys",
+        "items": {
+          "item1": "Créé une application Qt en Python qui planifiait et surveillait les tests CI/CD d'électronique mixtes."
+        },
+        "dates": "Juillet 2017 - Septembre 2017",
+        "location": "Lisbonne, Portugal"
+      },
+      "coriantIntern": {
+        "title": "Stagiaire",
+        "company": "Coriant",
+        "items": {
+          "item1": "Développé des scripts et tests d'automatisation des processus robotiques (RPA)."
+        },
+        "dates": "Juillet 2016",
+        "location": "Lisbonne, Portugal"
+      },
+      "shared": {
+        "learnMoreIntro": "En savoir plus sur mes contributions auprès de ",
+        "learnMoreLink": "la section Converter Controls Software du CERN",
+        "learnMoreSuffix": "."
+      }
+    }
+  },
+  "education": {
+    "title": "Éducation",
+    "msc": {
+      "title": "Master, génie électrique et informatique",
+      "institution": "Instituto Superior Técnico, Université de Lisbonne",
+      "details": "&nbsp;",
+      "items": {
+        "item1": "Moyenne (16/20)",
+        "item2": "Majeure en systèmes, décision et contrôle. Mineure en informatique.",
+        "item3": "<strong>Bourse de recherche</strong> attribuée au <a href=\"https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546612/Extended_Abstract_David_Carvalho.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">mémoire de master</a> sur la prévision de séries temporelles avec des algorithmes de ML classiques (ARIMA, SARIMA, apprentissage supervisé).",
+        "item4": "<strong>Programme Erasmus+</strong> : Université de technologie de Varsovie, Pologne."
+      },
+      "dates": "Septembre 2016 - Novembre 2018",
+      "location": "Lisbonne, Portugal"
+    },
+    "bsc": {
+      "title": "Licence, génie électrique et informatique",
+      "institution": "Instituto Superior Técnico, Université de Lisbonne",
+      "dates": "Septembre 2013 - Juillet 2016",
+      "location": "Lisbonne, Portugal"
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "languages": {
+      "heading": "Langues",
+      "items": {
+        "item1": "Courant (C1) - <strong>Anglais</strong>",
+        "item2": "Langue maternelle (C2) - <strong>Portugais</strong>",
+        "item3": "Intermédiaire (B1) - <strong>Français</strong>"
+      }
+    },
+    "software": {
+      "heading": "Développement logiciel",
+      "programming": {
+        "title": "Langages de programmation",
+        "items": {
+          "item1": "Confirmé : <strong>Python</strong> (Pycharm ; venv ; pip : Qt, Tkinter, NumPy, pandas, asyncio, pytest, selenium)",
+          "item2": "Intermédiaire : <strong>C/C++</strong>, <strong>MATLAB/Octave</strong>, <strong>Bash</strong>",
+          "item3": "Bases : <strong>SQL</strong>"
+        }
+      },
+      "web": {
+        "title": "Développement web",
+        "items": {
+          "item1": "Bases : <strong>HTML/CSS/JavaScript</strong>, <strong>Node.js</strong>, <strong>WordPress</strong>, <strong>npm</strong>"
+        }
+      },
+      "tools": {
+        "title": "Outils de développement logiciel",
+        "items": {
+          "item1": "Confirmé : <strong>VS Code</strong>, <strong>Linux</strong> (WSL/Ubuntu/RHEL 9/CentOS), <strong>Git</strong>, <strong>Méthodologies agiles</strong> (JIRA/Confluence/Kanban)",
+          "item2": "Intermédiaire : <strong>GitHub/GitLab</strong>, <strong>PowerShell</strong>"
+        }
+      },
+      "cicd": {
+        "title": "Outils CI/CD",
+        "items": {
+          "item1": "Confirmé : <strong>GitLab CI</strong>",
+          "item2": "Bases : <strong>GitHub Actions</strong>"
+        }
+      },
+      "cloud": {
+        "title": "Cloud &amp; réseaux",
+        "items": {
+          "item1": "Intermédiaire : <strong>OpenStack</strong>, <strong>TCP/IP</strong>"
+        }
+      }
+    },
+    "embedded": {
+      "title": "Systèmes embarqués",
+      "items": {
+        "item1": "Intermédiaire : <strong>Arduino</strong>"
+      }
+    },
+    "industrial": {
+      "heading": "Automatisation industrielle",
+      "tools": {
+        "title": "Logiciels et outils industriels",
+        "items": {
+          "item1": "Confirmé : <strong>WinCC OA</strong>, <strong>TIA Portal</strong>, <strong>protocoles de communication SCADA</strong> (IEC-104, MODBUS, OPC-UA), <strong>versiondog</strong>",
+          "item2": "Intermédiaire : <strong>protocoles de communication PLC</strong> (PROFINET, PROFIBUS) <strong>SIMATIC STEP 7</strong>, <strong>WinCC</strong>"
+        }
+      }
+    }
+  },
+  "volunteering": {
+    "title": "Bénévolat &amp; événements",
+    "afterschool": {
+      "title": "Afterschool by treetree2",
+      "role": "Auteur - Créateur de contenu",
+      "description": "Création de contenus pour un cours d'électronique en ligne destiné aux lycéens.",
+      "link": "Lien du cours",
+      "dates": "Juin 2022 - Septembre 2022"
+    },
+    "openDays": {
+      "title": "CERN Open Days 2019",
+      "role": "Bénévole - Logistique",
+      "description": "Participation à l'organisation et à la logistique de l'événement.",
+      "link": "Informations sur l'événement",
+      "dates": "Septembre 2019"
+    },
+    "neecist": {
+      "title": "NEECIST",
+      "role": "Bénévole - Ateliers",
+      "description": "Animation d'ateliers techniques pour des étudiants : Git et GitHub ; soudure d'une carte Arduino ; création de circuits électriques avec une breadboard et un microcontrôleur.",
+      "link": "Lien de l'organisation",
+      "dates": "Juin 2016 - Nov 2018"
+    },
+    "rob916": {
+      "title": "École d'été rob9-16",
+      "role": "Moniteur",
+      "description": "Enseignement des bases de la robotique, de la programmation, de l'électronique, de la soudure et de la modélisation 3D à des jeunes de 9 à 16 ans.",
+      "programLink": "Détails du programme",
+      "moreInfoLink": "En savoir plus",
+      "dates": "Juillet 2018"
+    },
+    "actInSpace": {
+      "title": "Act in Space 2018",
+      "role": "Participant",
+      "description": "Création d'une idée de start-up basée sur des technologies spatiales et les données Copernicus de l'ESA (hackathon de 2 jours).",
+      "link": "Informations sur l'événement",
+      "dates": "Novembre 2018"
+    }
+  },
+  "footer": {
+    "credit": {
+      "prefix": "Créé par David Carvalho | Hébergé sur ",
+      "link": "GitHub Pages"
+    }
+  }
+}

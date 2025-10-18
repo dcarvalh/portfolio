@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">    <head>
+<html lang="en">
+    <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="David Carvalho" />
-        <title>Portfolio - David Carvalho</title>
+        <title data-i18n="head.title">Portfolio - David Carvalho</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,27 +15,35 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Icons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-        <link rel="manifest" href="assets/img/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+        <link rel="manifest" href="assets/img/site.webmanifest" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">David Carvalho</span>
+                <span class="d-block d-lg-none" data-i18n="nav.brand.short">David Carvalho</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" data-i18n="nav.toggler" data-i18n-attr="aria-label" data-i18n-attr-only="true"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteering">Volunteering</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" data-i18n="nav.links.about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience" data-i18n="nav.links.experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education" data-i18n="nav.links.education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills" data-i18n="nav.links.skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteering" data-i18n="nav.links.volunteering">Volunteering</a></li>
                 </ul>
+                <div class="language-switcher mt-3 mt-lg-5 px-3">
+                    <label class="form-label text-white-50 small" for="languageSwitcher" data-i18n="nav.language.label">Language</label>
+                    <select class="form-select form-select-sm" id="languageSwitcher" data-i18n-switcher>
+                        <option value="en" data-i18n="nav.language.options.en">English</option>
+                        <option value="fr" data-i18n="nav.language.options.fr">French</option>
+                        <option value="pt" data-i18n="nav.language.options.pt">Portuguese</option>
+                    </select>
+                </div>
             </div>
         </nav>
         <!-- Page Content-->
@@ -43,18 +52,14 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        David
-                        <span class="text-primary">Carvalho</span>
+                        <span data-i18n="about.heading.first">David</span>
+                        <span class="text-primary" data-i18n="about.heading.last">Carvalho</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Geneva, Switzerland ·
-                        <a href="mailto:david.belo.carvalho@gmail.com">david.belo.carvalho@gmail.com</a>
+                        <span data-i18n="about.location">Geneva, Switzerland ·</span>
+                        <a href="mailto:david.belo.carvalho@gmail.com" data-i18n="about.email">david.belo.carvalho@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Hi there! <span class="wave">👋</span><br><br>
-                        <strong>TL;DR: </strong> I’m a Software Engineer with experience at CERN and pharma, where I developed industrial supervisory systems and led automation projects testing PLCs. I’m skilled in Python, C++, and real-time control systems, with a strong ability to work across IT and OT domains. With an MSc in Electrical and Computer Engineering, I specialize in control systems, software and testing. In the past, I’ve mentored junior engineers and coordinated teams. I’m also passionate about aerospace, data science, and DML*. I’m fluent in Portuguese, English, and conversational French.
-                        <br><br>
-                        *</small><small><small><small>DML - Drinking Matcha Lattes 🍵</small></small></small></small>
-                    </p>
+                    <p class="lead mb-5" data-i18n="about.lead">Hi there! <span class="wave">👋</span><br /><br /><strong>TL;DR: </strong> I’m a Software Engineer with experience at CERN and pharma, where I developed industrial supervisory systems and led automation projects testing PLCs. I’m skilled in Python, C++, and real-time control systems, with a strong ability to work across IT and OT domains. With an MSc in Electrical and Computer Engineering, I specialize in control systems, software and testing. In the past, I’ve mentored junior engineers and coordinated teams. I’m also passionate about aerospace, data science, and DML*. I’m fluent in Portuguese, English, and conversational French.<br /><br />*</small><small><small><small>DML - Drinking Matcha Lattes 🍵</small></small></small></small></p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/dcarvalh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/dcarvalh" target="_blank"><i class="fab fa-github"></i></a>
@@ -65,66 +70,89 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>                    
+                    <h2 class="mb-5" data-i18n="experience.title">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Automation Engineer</h3>
-                            <div class="subheading mb-3">SKAN</div>
+                            <h3 class="mb-0" data-i18n="experience.roles.automationEngineer.title">Automation Engineer</h3>
+                            <div class="subheading mb-3" data-i18n="experience.roles.automationEngineer.company">SKAN</div>
                             <ul>
-                                <li>Develop SCADA control systems for pharmaceutical machinery, ensuring extensive documentation and compliance with GMP standards. Using zenon, C#, and SQL for development.</li>
-                                <li>Collaborate with clients, project managers, and engineering teams to deliver comprehensive control solutions, integrating SCADA software with robust networking architecture to ensure seamless performance.</li>
-                                <li>Translate complex and sometimes unclear requirements into clear, actionable engineering plans with a focus on the end-user experience</li>
+                                <li data-i18n="experience.roles.automationEngineer.items.item1">Develop SCADA control systems for pharmaceutical machinery, ensuring extensive documentation and compliance with GMP standards. Using zenon, C#, and SQL for development.</li>
+                                <li data-i18n="experience.roles.automationEngineer.items.item2">Collaborate with clients, project managers, and engineering teams to deliver comprehensive control solutions, integrating SCADA software with robust networking architecture to ensure seamless performance.</li>
+                                <li data-i18n="experience.roles.automationEngineer.items.item3">Translate complex and sometimes unclear requirements into clear, actionable engineering plans with a focus on the end-user experience</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Jan 2025 - Present</span><p style="text-align:right">Basel, Switzerland</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="experience.roles.automationEngineer.dates">Jan 2025 - Present</span>
+                            <p style="text-align:right" data-i18n="experience.roles.automationEngineer.location">Basel, Switzerland</p>
+                        </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Control Software Engineer, Fellow</h3>
-                            <div class="subheading mb-3">CERN - European Center for Nuclear Research</div>
+                            <h3 class="mb-0" data-i18n="experience.roles.controlFellow.title">Control Software Engineer, Fellow</h3>
+                            <div class="subheading mb-3" data-i18n="experience.roles.controlFellow.company">CERN - European Center for Nuclear Research</div>
                             <ul>
-                                <li>Designed, developed, commissioned, and maintained large, operational critical, distributed SCADA control systems for power converters plants across CERN: created scripts, libraries, and GUI's using CTRL++, a C++ syntax-based language.</li>
-                                <li>Led and developed a Python-based CI/CD framework that automatically tested software for Siemens PLCs applications based on project specifications:  created tests and managed pipelines through GitLab CI.</li>
-                                <li>Supervised a technical student for 9 months working on consolidating the CI/CD framework. </li>
-                                <li>Coordinated a team of 5 people providing internal support for real-time control systems software and hardware: used JIRA for issue tracking and ticket management.</li>
-                                <li>Solved urgent operational issues for power converter control systems as a standby service 24/7 every 2-3 months.</li>
+                                <li data-i18n="experience.roles.controlFellow.items.item1">Designed, developed, commissioned, and maintained large, operational critical, distributed SCADA control systems for power converters plants across CERN: created scripts, libraries, and GUI's using CTRL++, a C++ syntax-based language.</li>
+                                <li data-i18n="experience.roles.controlFellow.items.item2">Led and developed a Python-based CI/CD framework that automatically tested software for Siemens PLCs applications based on project specifications:  created tests and managed pipelines through GitLab CI.</li>
+                                <li data-i18n="experience.roles.controlFellow.items.item3">Supervised a technical student for 9 months working on consolidating the CI/CD framework.</li>
+                                <li data-i18n="experience.roles.controlFellow.items.item4">Coordinated a team of 5 people providing internal support for real-time control systems software and hardware: used JIRA for issue tracking and ticket management.</li>
+                                <li data-i18n="experience.roles.controlFellow.items.item5">Solved urgent operational issues for power converter control systems as a standby service 24/7 every 2-3 months.</li>
                             </ul>
-                            <p>Learn more about my contributions at <a href="https://epc-ccs.web.cern.ch/content/industrial-controls#section-alumni" target="_blank" aria-label="Read more about industrial controls at CERN">CERN's Converter Controls Software Section</a>.</p>
+                            <p>
+                                <span data-i18n="experience.roles.shared.learnMoreIntro">Learn more about my contributions at </span>
+                                <a href="https://epc-ccs.web.cern.ch/content/industrial-controls#section-alumni" target="_blank" aria-label="Read more about industrial controls at CERN" data-i18n="experience.roles.shared.learnMoreLink">CERN's Converter Controls Software Section</a>
+                                <span data-i18n="experience.roles.shared.learnMoreSuffix">.</span>
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - Feb 2024</span><p style="text-align:right">Geneva, Switzerland</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="experience.roles.controlFellow.dates">March 2022 - Feb 2024</span>
+                            <p style="text-align:right" data-i18n="experience.roles.controlFellow.location">Geneva, Switzerland</p>
+                        </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Control Software Engineer, PJAS</h3>
-                            <div class="subheading mb-3">CERN - European Center for Nuclear Research</div>
+                            <h3 class="mb-0" data-i18n="experience.roles.controlPjas.title">Control Software Engineer, PJAS</h3>
+                            <div class="subheading mb-3" data-i18n="experience.roles.controlPjas.company">CERN - European Center for Nuclear Research</div>
                             <ul>
-                                <li> Developed SCADA applications for the control of power converter plants across CERN, including critical control systems for several accelerators: developed scripts, libraries, and GUI's using CTRL++ (C++ based). </li>
-                                <li> Implemented industrial communication protocols between field devices and SCADA: S7; IEC-104; and MODBUS. </li>
-                                <li> Developed Python, Bash, and PowerShell scripts to automate consistent file directory structure for the team's projects. </li>
+                                <li data-i18n="experience.roles.controlPjas.items.item1">Developed SCADA applications for the control of power converter plants across CERN, including critical control systems for several accelerators: developed scripts, libraries, and GUI's using CTRL++ (C++ based).</li>
+                                <li data-i18n="experience.roles.controlPjas.items.item2">Implemented industrial communication protocols between field devices and SCADA: S7; IEC-104; and MODBUS.</li>
+                                <li data-i18n="experience.roles.controlPjas.items.item3">Developed Python, Bash, and PowerShell scripts to automate consistent file directory structure for the team's projects.</li>
                             </ul>
-                            <p>Learn more about my contributions at <a href="https://epc-ccs.web.cern.ch/content/industrial-controls#section-alumni" target="_blank" aria-label="Read more about industrial controls at CERN">CERN's Converter Controls Software Section</a>.</p>
+                            <p>
+                                <span data-i18n="experience.roles.shared.learnMoreIntro">Learn more about my contributions at </span>
+                                <a href="https://epc-ccs.web.cern.ch/content/industrial-controls#section-alumni" target="_blank" aria-label="Read more about industrial controls at CERN" data-i18n="experience.roles.shared.learnMoreLink">CERN's Converter Controls Software Section</a>
+                                <span data-i18n="experience.roles.shared.learnMoreSuffix">.</span>
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - Feb 2022</span><p style="text-align:right">Geneva, Switzerland</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="experience.roles.controlPjas.dates">March 2019 - Feb 2022</span>
+                            <p style="text-align:right" data-i18n="experience.roles.controlPjas.location">Geneva, Switzerland</p>
+                        </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Intern</h3>
-                            <div class="subheading mb-3">Synopsys</div>
+                            <h3 class="mb-0" data-i18n="experience.roles.synopsysIntern.title">Intern</h3>
+                            <div class="subheading mb-3" data-i18n="experience.roles.synopsysIntern.company">Synopsys</div>
                             <ul>
-                                <li> Created a Python-based Qt application that scheduled and monitored CI/CD testing of mixed-signal electronics.</li>
+                                <li data-i18n="experience.roles.synopsysIntern.items.item1">Created a Python-based Qt application that scheduled and monitored CI/CD testing of mixed-signal electronics.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2017 - September 2017</span><p style="text-align:right">Lisbon, Portugal</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="experience.roles.synopsysIntern.dates">July 2017 - September 2017</span>
+                            <p style="text-align:right" data-i18n="experience.roles.synopsysIntern.location">Lisbon, Portugal</p>
+                        </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Intern</h3>
-                            <div class="subheading mb-3">Coriant</div>
+                            <h3 class="mb-0" data-i18n="experience.roles.coriantIntern.title">Intern</h3>
+                            <div class="subheading mb-3" data-i18n="experience.roles.coriantIntern.company">Coriant</div>
                             <ul>
-                                <li> Developed robotic process automation (RPA) scripts and tests.</li>
+                                <li data-i18n="experience.roles.coriantIntern.items.item1">Developed robotic process automation (RPA) scripts and tests.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2016</span><p style="text-align:right">Lisbon, Portugal</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="experience.roles.coriantIntern.dates">July 2016</span>
+                            <p style="text-align:right" data-i18n="experience.roles.coriantIntern.location">Lisbon, Portugal</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -132,27 +160,33 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5" data-i18n="education.title">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">MSc, Electrical And Computer Engineering</h3>
-                            <div class="subheading mb-3">Instituto Superior Técnico, University of Lisbon</div>
-                            <div></div>
+                            <h3 class="mb-0" data-i18n="education.msc.title">MSc, Electrical And Computer Engineering</h3>
+                            <div class="subheading mb-3" data-i18n="education.msc.institution">Instituto Superior Técnico, University of Lisbon</div>
+                            <div data-i18n="education.msc.details">&nbsp;</div>
                             <ul>
-                                <li>GPA (16/20)</li>
-                                <li>Major in Systems, Decision, and Control. Minor in Computers.</li>
-                                <li><b>Investigation Grant</b> attributed to <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546612/Extended_Abstract_David_Carvalho.pdf" target="_blank" rel="noopener noreferrer">Master Thesis</a> in time series forecasting using traditional ML algorithms (ARIMA, SARIMA, supervised learning).</li>
-                                <li><b>Erasmus+ Program</b> : Warsaw University of Technology, Poland.</li>
+                                <li data-i18n="education.msc.items.item1">GPA (16/20)</li>
+                                <li data-i18n="education.msc.items.item2">Major in Systems, Decision, and Control. Minor in Computers.</li>
+                                <li data-i18n="education.msc.items.item3"><strong>Investigation Grant</strong> attributed to <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546612/Extended_Abstract_David_Carvalho.pdf" target="_blank" rel="noopener noreferrer">Master Thesis</a> in time series forecasting using traditional ML algorithms (ARIMA, SARIMA, supervised learning).</li>
+                                <li data-i18n="education.msc.items.item4"><strong>Erasmus+ Program</strong> : Warsaw University of Technology, Poland.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2016 - November 2018</span><p style="text-align:right">Lisbon, Portugal</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="education.msc.dates">September 2016 - November 2018</span>
+                            <p style="text-align:right" data-i18n="education.msc.location">Lisbon, Portugal</p>
+                        </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">BSc, Electrical And Computer Engineering</h3>
-                            <div class="subheading mb-3">Instituto Superior Técnico, University of Lisbon</div>
+                            <h3 class="mb-0" data-i18n="education.bsc.title">BSc, Electrical And Computer Engineering</h3>
+                            <div class="subheading mb-3" data-i18n="education.bsc.institution">Instituto Superior Técnico, University of Lisbon</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2013 - July 2016</span><p style="text-align:right">Lisbon, Portugal</p></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" data-i18n="education.bsc.dates">September 2013 - July 2016</span>
+                            <p style="text-align:right" data-i18n="education.bsc.location">Lisbon, Portugal</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -160,69 +194,101 @@
             <!-- Skills Section -->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
+                    <h2 class="mb-5" data-i18n="skills.title">Skills</h2>
                     <!-- Language Proficiency -->
-                    <div class="subheading mb-3">Languages</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Proficient (fluent, C1) - <strong>English</strong></li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Native (fluent, C2) - <strong>Portuguese</strong></li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate (B1) - <strong>French</strong></li>
-                    </ul>
-                    <!-- Software Development -->
-                    <div class="subheading mb-3">Software Development</div>
-                    <!-- Programming Languages -->
-                    <div class="mb-3">Programming Languages</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Experienced: <strong>Python</strong> (Pycharm; venv; pip: Qt, Tkinter, NumPy, pandas, asyncio, pytest, selenium)</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate: <strong>C/C++</strong>, <strong>MATLAB/Octave</strong>, <strong>Bash</strong></li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Basic: <strong>SQL</strong></li>
-                    </ul>
-                    <!-- Web Development -->
-                    <div class="mb-3">Web Development</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Basic: <strong>HTML/CSS/JavaScript</strong>, <strong>Node.js</strong>, <strong>WordPress</strong>, <strong>npm</strong></li>
-                    </ul>
-                    <!-- Software Development Tools -->
-                    <div class="mb-3">Software Development Tools</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Experienced: <strong>VS Code</strong>, <strong>Linux</strong> (WSL/Ubuntu/RHEL 9/CentOS), <strong>Git</strong>, <strong>Agile Methodologies</strong> (JIRA/Confluence/Kanban)</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate: <strong>GitHub/GitLab</strong>, <strong>PowerShell</strong></li>
-                    </ul>
-                    <!-- CI/CD Tools -->
-                    <div class="mb-3">CI/CD Tools</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Experienced: <strong>GitLab CI</strong></li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Basic: <strong>GitHub Actions</strong></li>
-                    </ul>
-                    <!-- Cloud & Networks -->
-                    <div class="mb-3">Cloud & Networks</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate: <strong>OpenStack</strong>, <strong>TCP/IP</strong></li>
-                    </ul>
-                    <!-- Embedded Systems -->
-                    <div class="mb-3">Embedded Systems</div>
-                    <ul class="fa-ul mb-4">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate: <strong>Arduino</strong></li>
-                    </ul>
-                    <!-- Industrial Automation -->
-                    <div class="subheading mb-3">Industrial Automation</div>
-                    <!-- Industrial Automation tools -->
-                    <div class="mb-3">Industrial Software and Tools</div>
+                    <div class="subheading mb-3" data-i18n="skills.languages.heading">Languages</div>
                     <ul class="fa-ul mb-4">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Experienced:
-                            <strong>WinCC OA</strong>,
-                            <strong>TIA Portal</strong>,
-                            <strong>Industrial Communication Protocols SCADA</strong> (IEC-104, MODBUS, OPC-UA),
-                            <strong>versiondog</strong>
+                            <span data-i18n="skills.languages.items.item1">Proficient (fluent, C1) - <strong>English</strong></span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Intermediate:
-                            <strong>Industrial Communication Protocols PLC</strong> (PROFINET, PROFIBUS)
-                            <strong>SIMATIC STEP 7</strong>,
-                            <strong>WinCC</strong>
+                            <span data-i18n="skills.languages.items.item2">Native (fluent, C2) - <strong>Portuguese</strong></span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.languages.items.item3">Intermediate (B1) - <strong>French</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Software Development -->
+                    <div class="subheading mb-3" data-i18n="skills.software.heading">Software Development</div>
+                    <!-- Programming Languages -->
+                    <div class="mb-3" data-i18n="skills.software.programming.title">Programming Languages</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.programming.items.item1">Experienced: <strong>Python</strong> (Pycharm; venv; pip: Qt, Tkinter, NumPy, pandas, asyncio, pytest, selenium)</span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.programming.items.item2">Intermediate: <strong>C/C++</strong>, <strong>MATLAB/Octave</strong>, <strong>Bash</strong></span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.programming.items.item3">Basic: <strong>SQL</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Web Development -->
+                    <div class="mb-3" data-i18n="skills.software.web.title">Web Development</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.web.items.item1">Basic: <strong>HTML/CSS/JavaScript</strong>, <strong>Node.js</strong>, <strong>WordPress</strong>, <strong>npm</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Software Development Tools -->
+                    <div class="mb-3" data-i18n="skills.software.tools.title">Software Development Tools</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.tools.items.item1">Experienced: <strong>VS Code</strong>, <strong>Linux</strong> (WSL/Ubuntu/RHEL 9/CentOS), <strong>Git</strong>, <strong>Agile Methodologies</strong> (JIRA/Confluence/Kanban)</span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.tools.items.item2">Intermediate: <strong>GitHub/GitLab</strong>, <strong>PowerShell</strong></span>
+                        </li>
+                    </ul>
+                    <!-- CI/CD Tools -->
+                    <div class="mb-3" data-i18n="skills.software.cicd.title">CI/CD Tools</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.cicd.items.item1">Experienced: <strong>GitLab CI</strong></span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.cicd.items.item2">Basic: <strong>GitHub Actions</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Cloud & Networks -->
+                    <div class="mb-3" data-i18n="skills.software.cloud.title">Cloud &amp; Networks</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.software.cloud.items.item1">Intermediate: <strong>OpenStack</strong>, <strong>TCP/IP</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Embedded Systems -->
+                    <div class="mb-3" data-i18n="skills.embedded.title">Embedded Systems</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.embedded.items.item1">Intermediate: <strong>Arduino</strong></span>
+                        </li>
+                    </ul>
+                    <!-- Industrial Automation -->
+                    <div class="subheading mb-3" data-i18n="skills.industrial.heading">Industrial Automation</div>
+                    <!-- Industrial Automation tools -->
+                    <div class="mb-3" data-i18n="skills.industrial.tools.title">Industrial Software and Tools</div>
+                    <ul class="fa-ul mb-4">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.industrial.tools.items.item1">Experienced: <strong>WinCC OA</strong>, <strong>TIA Portal</strong>, <strong>Industrial Communication Protocols SCADA</strong> (IEC-104, MODBUS, OPC-UA), <strong>versiondog</strong></span>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span data-i18n="skills.industrial.tools.items.item2">Intermediate: <strong>Industrial Communication Protocols PLC</strong> (PROFINET, PROFIBUS) <strong>SIMATIC STEP 7</strong>, <strong>WinCC</strong></span>
                         </li>
                     </ul>
                 </div>
@@ -231,57 +297,57 @@
             <!-- Volunteering Section -->
             <section class="resume-section" id="volunteering">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Volunteering & Events</h2>
+                    <h2 class="mb-5" data-i18n="volunteering.title">Volunteering &amp; Events</h2>
                     <!-- Afterschool by treetree2 -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Afterschool by treetree2</h3>
-                            <div class="subheading mb-3">Author - Content Creator</div>
-                            <p>Developed content for an online electronics course targeted at high school students.</p>
-                            <a href="https://treetree2.school/cursos/circuitos-eletricos-eletronicos/2022-01" target="_blank">Course Link</a>
+                            <h3 class="mb-0" data-i18n="volunteering.afterschool.title">Afterschool by treetree2</h3>
+                            <div class="subheading mb-3" data-i18n="volunteering.afterschool.role">Author - Content Creator</div>
+                            <p data-i18n="volunteering.afterschool.description">Developed content for an online electronics course targeted at high school students.</p>
+                            <a href="https://treetree2.school/cursos/circuitos-eletricos-eletronicos/2022-01" target="_blank" data-i18n="volunteering.afterschool.link">Course Link</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2022 - September 2022</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n="volunteering.afterschool.dates">June 2022 - September 2022</span></div>
                     </div>
                     <!-- CERN Open Days 2019 -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">CERN Open Days 2019</h3>
-                            <div class="subheading mb-3">Volunteer - Logistics</div>
-                            <p>Assisted with the organization and logistics of the event.</p>
-                            <a href="https://opendays.cern/" target="_blank">Event Details</a>
+                            <h3 class="mb-0" data-i18n="volunteering.openDays.title">CERN Open Days 2019</h3>
+                            <div class="subheading mb-3" data-i18n="volunteering.openDays.role">Volunteer - Logistics</div>
+                            <p data-i18n="volunteering.openDays.description">Assisted with the organization and logistics of the event.</p>
+                            <a href="https://opendays.cern/" target="_blank" data-i18n="volunteering.openDays.link">Event Details</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2019</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n="volunteering.openDays.dates">September 2019</span></div>
                     </div>
                     <!-- NEECIST -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">NEECIST</h3>
-                            <div class="subheading mb-3">Volunteer - Workshops</div>
-                            <p>Created and conducted technical workshops for university students: Git and Github; soldering an Arduino board; creating electric circuits with a breadboard and a microcontroller.</p>
-                            <a href="https://neecist.org/" target="_blank">Organization Link</a>
+                            <h3 class="mb-0" data-i18n="volunteering.neecist.title">NEECIST</h3>
+                            <div class="subheading mb-3" data-i18n="volunteering.neecist.role">Volunteer - Workshops</div>
+                            <p data-i18n="volunteering.neecist.description">Created and conducted technical workshops for university students: Git and Github; soldering an Arduino board; creating electric circuits with a breadboard and a microcontroller.</p>
+                            <a href="https://neecist.org/" target="_blank" data-i18n="volunteering.neecist.link">Organization Link</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2016 - Nov 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n="volunteering.neecist.dates">June 2016 - Nov 2018</span></div>
                     </div>
                     <!-- rob9-16 Summer School -->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">rob9-16 Summer School</h3>
-                            <div class="subheading mb-3">Monitor</div>
-                            <p>Taught basics of robotics, programming, electronics, soldering, and 3D modeling to young students (9-16 years-old).</p>
-                            <a href="https://mediawiki.isr.tecnico.ulisboa.pt/wiki/Ocupa%C3%A7%C3%A3o_Cient%C3%ADfica_de_Jovens_nas_F%C3%A9rias_2018" target="_blank">Program Details</a>
-                            <a href="https://tecnico.ulisboa.pt/en/news/campus-community/enthusiastic-students-during-the-robotics-workshop/" target="_blank">More Info</a>
+                            <h3 class="mb-0" data-i18n="volunteering.rob916.title">rob9-16 Summer School</h3>
+                            <div class="subheading mb-3" data-i18n="volunteering.rob916.role">Monitor</div>
+                            <p data-i18n="volunteering.rob916.description">Taught basics of robotics, programming, electronics, soldering, and 3D modeling to young students (9-16 years-old).</p>
+                            <a href="https://mediawiki.isr.tecnico.ulisboa.pt/wiki/Ocupa%C3%A7%C3%A3o_Cient%C3%ADfica_de_Jovens_nas_F%C3%A9rias_2018" target="_blank" data-i18n="volunteering.rob916.programLink">Program Details</a>
+                            <a href="https://tecnico.ulisboa.pt/en/news/campus-community/enthusiastic-students-during-the-robotics-workshop/" target="_blank" data-i18n="volunteering.rob916.moreInfoLink">More Info</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n="volunteering.rob916.dates">July 2018</span></div>
                     </div>
                     <!-- Act in Space 2018 -->
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Act in Space 2018</h3>
-                            <div class="subheading mb-3">Participant</div>
-                            <p>Created a start-up idea based on space technologies and ESA Copernicus data (2-day hackathon).</p>
-                            <a href="https://www.ipn.pt/espaco/actividade/24" target="_blank">Event Details</a>
+                            <h3 class="mb-0" data-i18n="volunteering.actInSpace.title">Act in Space 2018</h3>
+                            <div class="subheading mb-3" data-i18n="volunteering.actInSpace.role">Participant</div>
+                            <p data-i18n="volunteering.actInSpace.description">Created a start-up idea based on space technologies and ESA Copernicus data (2-day hackathon).</p>
+                            <a href="https://www.ipn.pt/espaco/actividade/24" target="_blank" data-i18n="volunteering.actInSpace.link">Event Details</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n="volunteering.actInSpace.dates">November 2018</span></div>
                     </div>
                 </div>
             </section>
@@ -290,12 +356,16 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
+        <script type="module" src="js/i18n.js"></script>
         <script src="js/scripts.js"></script>
 
         <!-- Footer -->
         <footer class="footer bg-light text-center py-3">
             <div class="container">
-                <span>Created by David Carvalho | Hosted on <a href="https://github.com/dcarvalh/portfolio" target="_blank">GitHub Pages</a></span>
+                <span>
+                    <span data-i18n="footer.credit.prefix">Created by David Carvalho | Hosted on </span>
+                    <a href="https://github.com/dcarvalh/portfolio" target="_blank" data-i18n="footer.credit.link">GitHub Pages</a>
+                </span>
             </div>
         </footer>
     </body>
