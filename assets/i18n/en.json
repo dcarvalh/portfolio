@@ -1,0 +1,229 @@
+{
+  "head": {
+    "title": "Portfolio - David Carvalho"
+  },
+  "nav": {
+    "brand": {
+      "short": "David Carvalho"
+    },
+    "toggler": "Toggle navigation",
+    "links": {
+      "about": "About",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "volunteering": "Volunteering"
+    },
+    "language": {
+      "label": "Language",
+      "options": {
+        "en": "English",
+        "fr": "French",
+        "pt": "Portuguese"
+      }
+    }
+  },
+  "about": {
+    "heading": {
+      "first": "David",
+      "last": "Carvalho"
+    },
+    "location": "Geneva, Switzerland ·",
+    "email": "david.belo.carvalho@gmail.com",
+    "lead": "Hi there! <span class=\"wave\">👋</span><br /><br /><strong>TL;DR: </strong> I’m a Software Engineer with experience at CERN and pharma, where I developed industrial supervisory systems and led automation projects testing PLCs. I’m skilled in Python, C++, and real-time control systems, with a strong ability to work across IT and OT domains. With an MSc in Electrical and Computer Engineering, I specialize in control systems, software and testing. In the past, I’ve mentored junior engineers and coordinated teams. I’m also passionate about aerospace, data science, and DML*. I’m fluent in Portuguese, English, and conversational French.<br /><br />*</small><small><small><small>DML - Drinking Matcha Lattes 🍵</small></small></small></small>"
+  },
+  "experience": {
+    "title": "Experience",
+    "roles": {
+      "automationEngineer": {
+        "title": "Automation Engineer",
+        "company": "SKAN",
+        "items": {
+          "item1": "Develop SCADA control systems for pharmaceutical machinery, ensuring extensive documentation and compliance with GMP standards. Using zenon, C#, and SQL for development.",
+          "item2": "Collaborate with clients, project managers, and engineering teams to deliver comprehensive control solutions, integrating SCADA software with robust networking architecture to ensure seamless performance.",
+          "item3": "Translate complex and sometimes unclear requirements into clear, actionable engineering plans with a focus on the end-user experience"
+        },
+        "dates": "Jan 2025 - Present",
+        "location": "Basel, Switzerland"
+      },
+      "controlFellow": {
+        "title": "Control Software Engineer, Fellow",
+        "company": "CERN - European Center for Nuclear Research",
+        "items": {
+          "item1": "Designed, developed, commissioned, and maintained large, operational critical, distributed SCADA control systems for power converters plants across CERN: created scripts, libraries, and GUI's using CTRL++, a C++ syntax-based language.",
+          "item2": "Led and developed a Python-based CI/CD framework that automatically tested software for Siemens PLCs applications based on project specifications:  created tests and managed pipelines through GitLab CI.",
+          "item3": "Supervised a technical student for 9 months working on consolidating the CI/CD framework.",
+          "item4": "Coordinated a team of 5 people providing internal support for real-time control systems software and hardware: used JIRA for issue tracking and ticket management.",
+          "item5": "Solved urgent operational issues for power converter control systems as a standby service 24/7 every 2-3 months."
+        },
+        "dates": "March 2022 - Feb 2024",
+        "location": "Geneva, Switzerland"
+      },
+      "controlPjas": {
+        "title": "Control Software Engineer, PJAS",
+        "company": "CERN - European Center for Nuclear Research",
+        "items": {
+          "item1": "Developed SCADA applications for the control of power converter plants across CERN, including critical control systems for several accelerators: developed scripts, libraries, and GUI's using CTRL++ (C++ based).",
+          "item2": "Implemented industrial communication protocols between field devices and SCADA: S7; IEC-104; and MODBUS.",
+          "item3": "Developed Python, Bash, and PowerShell scripts to automate consistent file directory structure for the team's projects."
+        },
+        "dates": "March 2019 - Feb 2022",
+        "location": "Geneva, Switzerland"
+      },
+      "synopsysIntern": {
+        "title": "Intern",
+        "company": "Synopsys",
+        "items": {
+          "item1": "Created a Python-based Qt application that scheduled and monitored CI/CD testing of mixed-signal electronics."
+        },
+        "dates": "July 2017 - September 2017",
+        "location": "Lisbon, Portugal"
+      },
+      "coriantIntern": {
+        "title": "Intern",
+        "company": "Coriant",
+        "items": {
+          "item1": "Developed robotic process automation (RPA) scripts and tests."
+        },
+        "dates": "July 2016",
+        "location": "Lisbon, Portugal"
+      },
+      "shared": {
+        "learnMoreIntro": "Learn more about my contributions at ",
+        "learnMoreLink": "CERN's Converter Controls Software Section",
+        "learnMoreSuffix": "."
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "msc": {
+      "title": "MSc, Electrical And Computer Engineering",
+      "institution": "Instituto Superior Técnico, University of Lisbon",
+      "details": "&nbsp;",
+      "items": {
+        "item1": "GPA (16/20)",
+        "item2": "Major in Systems, Decision, and Control. Minor in Computers.",
+        "item3": "<strong>Investigation Grant</strong> attributed to <a href=\"https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546612/Extended_Abstract_David_Carvalho.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Master Thesis</a> in time series forecasting using traditional ML algorithms (ARIMA, SARIMA, supervised learning).",
+        "item4": "<strong>Erasmus+ Program</strong> : Warsaw University of Technology, Poland."
+      },
+      "dates": "September 2016 - November 2018",
+      "location": "Lisbon, Portugal"
+    },
+    "bsc": {
+      "title": "BSc, Electrical And Computer Engineering",
+      "institution": "Instituto Superior Técnico, University of Lisbon",
+      "dates": "September 2013 - July 2016",
+      "location": "Lisbon, Portugal"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": {
+      "heading": "Languages",
+      "items": {
+        "item1": "Proficient (fluent, C1) - <strong>English</strong>",
+        "item2": "Native (fluent, C2) - <strong>Portuguese</strong>",
+        "item3": "Intermediate (B1) - <strong>French</strong>"
+      }
+    },
+    "software": {
+      "heading": "Software Development",
+      "programming": {
+        "title": "Programming Languages",
+        "items": {
+          "item1": "Experienced: <strong>Python</strong> (Pycharm; venv; pip: Qt, Tkinter, NumPy, pandas, asyncio, pytest, selenium)",
+          "item2": "Intermediate: <strong>C/C++</strong>, <strong>MATLAB/Octave</strong>, <strong>Bash</strong>",
+          "item3": "Basic: <strong>SQL</strong>"
+        }
+      },
+      "web": {
+        "title": "Web Development",
+        "items": {
+          "item1": "Basic: <strong>HTML/CSS/JavaScript</strong>, <strong>Node.js</strong>, <strong>WordPress</strong>, <strong>npm</strong>"
+        }
+      },
+      "tools": {
+        "title": "Software Development Tools",
+        "items": {
+          "item1": "Experienced: <strong>VS Code</strong>, <strong>Linux</strong> (WSL/Ubuntu/RHEL 9/CentOS), <strong>Git</strong>, <strong>Agile Methodologies</strong> (JIRA/Confluence/Kanban)",
+          "item2": "Intermediate: <strong>GitHub/GitLab</strong>, <strong>PowerShell</strong>"
+        }
+      },
+      "cicd": {
+        "title": "CI/CD Tools",
+        "items": {
+          "item1": "Experienced: <strong>GitLab CI</strong>",
+          "item2": "Basic: <strong>GitHub Actions</strong>"
+        }
+      },
+      "cloud": {
+        "title": "Cloud &amp; Networks",
+        "items": {
+          "item1": "Intermediate: <strong>OpenStack</strong>, <strong>TCP/IP</strong>"
+        }
+      }
+    },
+    "embedded": {
+      "title": "Embedded Systems",
+      "items": {
+        "item1": "Intermediate: <strong>Arduino</strong>"
+      }
+    },
+    "industrial": {
+      "heading": "Industrial Automation",
+      "tools": {
+        "title": "Industrial Software and Tools",
+        "items": {
+          "item1": "Experienced: <strong>WinCC OA</strong>, <strong>TIA Portal</strong>, <strong>Industrial Communication Protocols SCADA</strong> (IEC-104, MODBUS, OPC-UA), <strong>versiondog</strong>",
+          "item2": "Intermediate: <strong>Industrial Communication Protocols PLC</strong> (PROFINET, PROFIBUS) <strong>SIMATIC STEP 7</strong>, <strong>WinCC</strong>"
+        }
+      }
+    }
+  },
+  "volunteering": {
+    "title": "Volunteering &amp; Events",
+    "afterschool": {
+      "title": "Afterschool by treetree2",
+      "role": "Author - Content Creator",
+      "description": "Developed content for an online electronics course targeted at high school students.",
+      "link": "Course Link",
+      "dates": "June 2022 - September 2022"
+    },
+    "openDays": {
+      "title": "CERN Open Days 2019",
+      "role": "Volunteer - Logistics",
+      "description": "Assisted with the organization and logistics of the event.",
+      "link": "Event Details",
+      "dates": "September 2019"
+    },
+    "neecist": {
+      "title": "NEECIST",
+      "role": "Volunteer - Workshops",
+      "description": "Created and conducted technical workshops for university students: Git and Github; soldering an Arduino board; creating electric circuits with a breadboard and a microcontroller.",
+      "link": "Organization Link",
+      "dates": "June 2016 - Nov 2018"
+    },
+    "rob916": {
+      "title": "rob9-16 Summer School",
+      "role": "Monitor",
+      "description": "Taught basics of robotics, programming, electronics, soldering, and 3D modeling to young students (9-16 years-old).",
+      "programLink": "Program Details",
+      "moreInfoLink": "More Info",
+      "dates": "July 2018"
+    },
+    "actInSpace": {
+      "title": "Act in Space 2018",
+      "role": "Participant",
+      "description": "Created a start-up idea based on space technologies and ESA Copernicus data (2-day hackathon).",
+      "link": "Event Details",
+      "dates": "November 2018"
+    }
+  },
+  "footer": {
+    "credit": {
+      "prefix": "Created by David Carvalho | Hosted on ",
+      "link": "GitHub Pages"
+    }
+  }
+}

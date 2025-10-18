@@ -1,0 +1,229 @@
+{
+  "head": {
+    "title": "Portfólio - David Carvalho"
+  },
+  "nav": {
+    "brand": {
+      "short": "David Carvalho"
+    },
+    "toggler": "Alternar navegação",
+    "links": {
+      "about": "Sobre",
+      "experience": "Experiência",
+      "education": "Educação",
+      "skills": "Habilidades",
+      "volunteering": "Voluntariado"
+    },
+    "language": {
+      "label": "Idioma",
+      "options": {
+        "en": "Inglês",
+        "fr": "Francês",
+        "pt": "Português"
+      }
+    }
+  },
+  "about": {
+    "heading": {
+      "first": "David",
+      "last": "Carvalho"
+    },
+    "location": "Genebra, Suíça ·",
+    "email": "david.belo.carvalho@gmail.com",
+    "lead": "Olá! <span class=\"wave\">👋</span><br /><br /><strong>Resumo rápido: </strong> Sou engenheiro de software com experiência no CERN e no setor farmacêutico, onde desenvolvi sistemas de supervisão industrial e liderei projetos de automação testando PLCs. Tenho domínio de Python, C++ e sistemas de controle em tempo real, com forte capacidade de atuar entre os domínios de TI e OT. Com um mestrado em Engenharia Elétrica e de Computadores, especializei-me em sistemas de controle, software e testes. No passado, mentorei engenheiros juniores e coordenei equipes. Também sou apaixonado por Engenharia Aeroespacial e ciência de dados. Falo fluentemente português e inglês e tenho francês intermediário.<br /><br />"
+  },
+  "experience": {
+    "title": "Experiência",
+    "roles": {
+      "automationEngineer": {
+        "title": "Engenheiro de automação",
+        "company": "SKAN",
+        "items": {
+          "item1": "Desenvolver sistemas de controle SCADA para máquinas farmacêuticas, garantindo documentação extensa e conformidade com padrões GMP. Utilização de zenon, C# e SQL no desenvolvimento.",
+          "item2": "Colaborar com clientes, gerentes de projeto e equipes de engenharia para entregar soluções completas de controle, integrando software SCADA a uma arquitetura de rede robusta para assegurar desempenho contínuo.",
+          "item3": "Traduzir requisitos complexos e por vezes pouco claros em planos de engenharia claros e acionáveis, com foco na experiência do usuário final"
+        },
+        "dates": "Janeiro de 2025 - Presente",
+        "location": "Basileia, Suíça"
+      },
+      "controlFellow": {
+        "title": "Engenheiro de software de controle, Fellow",
+        "company": "CERN - Organização Europeia para Pesquisa Nuclear",
+        "items": {
+          "item1": "Projetei, desenvolvi, comissionei e mantive grandes sistemas SCADA distribuídos e críticos para a operação de plantas de conversores de potência no CERN: criação de scripts, bibliotecas e interfaces usando CTRL++, uma linguagem baseada em C++.",
+          "item2": "Liderei e desenvolvi uma estrutura de CI/CD em Python que testava automaticamente software para aplicações PLC Siemens conforme as especificações dos projetos: criação de testes e gestão de pipelines via GitLab CI.",
+          "item3": "Supervisionei por 9 meses um estudante técnico que trabalhava na consolidação da estrutura de CI/CD.",
+          "item4": "Coordenei uma equipe de 5 pessoas prestando suporte interno para software e hardware de sistemas de controle em tempo real: uso do JIRA para registro e gestão de tickets.",
+          "item5": "Resolvi incidentes operacionais urgentes em sistemas de controle de conversores de potência atuando em regime de plantão 24/7 a cada 2-3 meses."
+        },
+        "dates": "Março de 2022 - Fevereiro de 2024",
+        "location": "Genebra, Suíça"
+      },
+      "controlPjas": {
+        "title": "Engenheiro de software de controle, PJAS",
+        "company": "CERN - Organização Europeia para Pesquisa Nuclear",
+        "items": {
+          "item1": "Desenvolvi aplicações SCADA para o controle de plantas de conversores de potência no CERN, incluindo sistemas críticos para diversos aceleradores: desenvolvimento de scripts, bibliotecas e interfaces com CTRL++ (baseado em C++).",
+          "item2": "Implementei protocolos de comunicação industrial entre dispositivos de campo e SCADA: S7; IEC-104; e MODBUS.",
+          "item3": "Desenvolvi scripts em Python, Bash e PowerShell para automatizar uma estrutura consistente de diretórios para os projetos da equipe."
+        },
+        "dates": "Março de 2019 - Fevereiro de 2022",
+        "location": "Genebra, Suíça"
+      },
+      "synopsysIntern": {
+        "title": "Estagiário",
+        "company": "Synopsys",
+        "items": {
+          "item1": "Criei uma aplicação Qt em Python que programava e monitorava testes CI/CD de eletrônica de sinal misto."
+        },
+        "dates": "Julho de 2017 - Setembro de 2017",
+        "location": "Lisboa, Portugal"
+      },
+      "coriantIntern": {
+        "title": "Estagiário",
+        "company": "Coriant",
+        "items": {
+          "item1": "Desenvolvi scripts e testes de automação robótica de processos (RPA)."
+        },
+        "dates": "Julho de 2016",
+        "location": "Lisboa, Portugal"
+      },
+      "shared": {
+        "learnMoreIntro": "Saiba mais sobre minhas contribuições na ",
+        "learnMoreLink": "seção Converter Controls Software do CERN",
+        "learnMoreSuffix": "."
+      }
+    }
+  },
+  "education": {
+    "title": "Educação",
+    "msc": {
+      "title": "Mestrado em Engenharia Elétrica e de Computadores",
+      "institution": "Instituto Superior Técnico, Universidade de Lisboa",
+      "details": "&nbsp;",
+      "items": {
+        "item1": "Média (16/20)",
+        "item2": "Especialização em Sistemas, Decisão e Controle. Complemento em Computadores.",
+        "item3": "<strong>Bolsa de investigação</strong> atribuída à <a href=\"https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546612/Extended_Abstract_David_Carvalho.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">dissertação de mestrado</a> sobre previsão de séries temporais com algoritmos tradicionais de ML (ARIMA, SARIMA, aprendizado supervisionado).",
+        "item4": "<strong>Programa Erasmus+</strong> : Universidade de Tecnologia de Varsóvia, Polónia."
+      },
+      "dates": "Setembro de 2016 - Novembro de 2018",
+      "location": "Lisboa, Portugal"
+    },
+    "bsc": {
+      "title": "Licenciatura em Engenharia Elétrica e de Computadores",
+      "institution": "Instituto Superior Técnico, Universidade de Lisboa",
+      "dates": "Setembro de 2013 - Julho de 2016",
+      "location": "Lisboa, Portugal"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "languages": {
+      "heading": "Idiomas",
+      "items": {
+        "item1": "Proficiente (fluente, C1) - <strong>Inglês</strong>",
+        "item2": "Nativo (fluente, C2) - <strong>Português</strong>",
+        "item3": "Intermediário (B1) - <strong>Francês</strong>"
+      }
+    },
+    "software": {
+      "heading": "Desenvolvimento de software",
+      "programming": {
+        "title": "Linguagens de programação",
+        "items": {
+          "item1": "Experiente: <strong>Python</strong> (Pycharm; venv; pip: Qt, Tkinter, NumPy, pandas, asyncio, pytest, selenium)",
+          "item2": "Intermediário: <strong>C/C++</strong>, <strong>MATLAB/Octave</strong>, <strong>Bash</strong>",
+          "item3": "Básico: <strong>SQL</strong>"
+        }
+      },
+      "web": {
+        "title": "Desenvolvimento web",
+        "items": {
+          "item1": "Básico: <strong>HTML/CSS/JavaScript</strong>, <strong>Node.js</strong>, <strong>WordPress</strong>, <strong>npm</strong>"
+        }
+      },
+      "tools": {
+        "title": "Ferramentas de desenvolvimento",
+        "items": {
+          "item1": "Experiente: <strong>VS Code</strong>, <strong>Linux</strong> (WSL/Ubuntu/RHEL 9/CentOS), <strong>Git</strong>, <strong>Metodologias ágeis</strong> (JIRA/Confluence/Kanban)",
+          "item2": "Intermediário: <strong>GitHub/GitLab</strong>, <strong>PowerShell</strong>"
+        }
+      },
+      "cicd": {
+        "title": "Ferramentas CI/CD",
+        "items": {
+          "item1": "Experiente: <strong>GitLab CI</strong>",
+          "item2": "Básico: <strong>GitHub Actions</strong>"
+        }
+      },
+      "cloud": {
+        "title": "Nuvem &amp; redes",
+        "items": {
+          "item1": "Intermediário: <strong>OpenStack</strong>, <strong>TCP/IP</strong>"
+        }
+      }
+    },
+    "embedded": {
+      "title": "Sistemas embarcados",
+      "items": {
+        "item1": "Intermediário: <strong>Arduino</strong>"
+      }
+    },
+    "industrial": {
+      "heading": "Automação industrial",
+      "tools": {
+        "title": "Softwares e ferramentas industriais",
+        "items": {
+          "item1": "Experiente: <strong>WinCC OA</strong>, <strong>TIA Portal</strong>, <strong>protocolos de comunicação SCADA</strong> (IEC-104, MODBUS, OPC-UA), <strong>versiondog</strong>",
+          "item2": "Intermediário: <strong>protocolos de comunicação PLC</strong> (PROFINET, PROFIBUS) <strong>SIMATIC STEP 7</strong>, <strong>WinCC</strong>"
+        }
+      }
+    }
+  },
+  "volunteering": {
+    "title": "Voluntariado &amp; eventos",
+    "afterschool": {
+      "title": "Afterschool by treetree2",
+      "role": "Autor - Criador de conteúdo",
+      "description": "Produzi conteúdo para um curso on-line de eletrônica voltado a estudantes do ensino médio.",
+      "link": "Link do curso",
+      "dates": "Junho de 2022 - Setembro de 2022"
+    },
+    "openDays": {
+      "title": "CERN Open Days 2019",
+      "role": "Voluntário - Logística",
+      "description": "Auxílio na organização e logística do evento.",
+      "link": "Detalhes do evento",
+      "dates": "Setembro de 2019"
+    },
+    "neecist": {
+      "title": "NEECIST",
+      "role": "Voluntário - Workshops",
+      "description": "Ministrei workshops técnicos para estudantes universitários: Git e GitHub; soldagem de uma placa Arduino; criação de circuitos elétricos com protoboard e microcontrolador.",
+      "link": "Link da organização",
+      "dates": "Junho de 2016 - Nov 2018"
+    },
+    "rob916": {
+      "title": "rob9-16 Summer School",
+      "role": "Monitor",
+      "description": "Ensinei noções de robótica, programação, eletrônica, soldagem e modelagem 3D para jovens de 9 a 16 anos.",
+      "programLink": "Detalhes do programa",
+      "moreInfoLink": "Mais informações",
+      "dates": "Julho de 2018"
+    },
+    "actInSpace": {
+      "title": "Act in Space 2018",
+      "role": "Participante",
+      "description": "Criei uma ideia de start-up baseada em tecnologias espaciais e dados Copernicus da ESA (hackathon de 2 dias).",
+      "link": "Detalhes do evento",
+      "dates": "Novembro de 2018"
+    }
+  },
+  "footer": {
+    "credit": {
+      "prefix": "Criado por David Carvalho | Hospedado em ",
+      "link": "GitHub Pages"
+    }
+  }
+}
