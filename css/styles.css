@@ -10890,12 +10890,24 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 17rem;
     height: 100vh;
   }
+  #sideNav .side-nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+    padding-bottom: 6rem;
+  }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    margin: 0 auto 1.5rem;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -10905,20 +10917,33 @@ p.lead {
   }
   #sideNav .navbar-collapse {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-grow: 0;
     width: 100%;
-    margin-bottom: auto;
+    margin-bottom: 0;
+    gap: 1.5rem;
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    margin: 0;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+    text-align: center;
+  }
+  #sideNav .navbar-collapse .language-switcher {
+    width: calc(100% - 3rem);
+    position: absolute;
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
   }
 }
 .social-icons .social-icon {
@@ -10989,4 +11014,3 @@ section.resume-section .resume-section-content {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
-
