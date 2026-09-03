@@ -1,0 +1,13 @@
+# Config for the link checker used by .github/workflows/link-check.yml
+timeout = 20
+retry_wait_time = 5
+max_retries = 2
+
+# LinkedIn returns HTTP 999 (bot-detection) to lychee's HTTP client even
+# though the profile page is live to a real browser. Tested: matching the
+# User-Agent does NOT fix this for lychee (unlike curl) -- LinkedIn's
+# detection catches something else about the client. Excluding it here
+# avoids a permanent false positive rather than masking all 999s globally.
+exclude = [
+  "^https://www\\.linkedin\\.com/",
+]
