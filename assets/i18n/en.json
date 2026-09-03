@@ -30,7 +30,7 @@
     },
     "location": "Geneva, Switzerland ·",
     "email": "david.belo.carvalho@gmail.com",
-    "lead": "Hi there! <span class=\"wave\">👋</span><br /><br /><strong>TL;DR: </strong> I'm an Electrical and Computer Engineer (MSc) who likes building things that can't fail. I've built control systems for mission-critical applications throughout my career, including five years at CERN developing real-time software for the LHC particle accelerator, and in life-science regulated environments. I bridge IT and OT: software, hardware, networks, and whatever it takes to make complex control systems work reliably. I've led teams, mentored junior engineers, and been the person on call at 3am when something breaks. I'm passionate about aerospace 👾, data science 📊 and sailing ⛵. Fluent in English, Portuguese and intermediate French.<br /><br />"
+    "lead": "<strong>TL;DR: </strong>  \"he works with computers\". (Python, CI/CD, Linux, Networks, Systems)<br /><br />Hi, I'm David. <span class=\"wave\">👋</span><br /><br />I'm an Electrical and Computer Engineer (MSc) specialized in software development and control systems. Throughout my career I've built critical systems for CERN particle accelerators and for pharma filling lines (environments where things shouldn't go boom). I'm comfortable between code and hardware: software, infrastructure, networks, and the in-between (version control, testing). I've led teams, mentored junior engineers, handled clients, and done 24/7 on-call support. Aerospace nerd, AI enthusiast, sailing addict. English and Portuguese fluent, French getting there.<br /><br />"
   },
   "experience": {
     "title": "Experience",
