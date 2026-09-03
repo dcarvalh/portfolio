@@ -11039,3 +11039,17 @@ section.resume-section .resume-section-content {
   text-align: center;
   line-height: inherit;
 }
+
+/* Mobile top-bar layout. `.side-nav-content` is a custom wrapper, so it is not
+   matched by Bootstrap's `.navbar > .container-*` flex rule and would otherwise
+   stack as a plain block. Scoped below the lg breakpoint that navbar-expand-lg
+   and the desktop sidebar rules use, so the desktop layout is untouched. */
+@media (max-width: 991.98px) {
+  #sideNav .side-nav-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
