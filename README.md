@@ -2,6 +2,12 @@
 Personal portfolio Website showcasing my work and academic experiences.
 
 
+## Credits
+
+Icons are from [Font Awesome Free](https://fontawesome.com) 6.5.2, inlined as SVG and
+licensed under [CC BY 4.0](https://fontawesome.com/license/free).
+
+
 ## Licensing [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 ### MIT License - All code

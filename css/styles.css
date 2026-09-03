@@ -11014,3 +11014,28 @@ section.resume-section .resume-section-content {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
+
+/* Inline SVG icons (replaces Font Awesome) */
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.125em;
+}
+
+/* Font Awesome list utilities, reimplemented locally */
+.fa-ul {
+  margin-left: 2.5em;
+  padding-left: 0;
+  list-style: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2em;
+  width: 2em;
+  text-align: center;
+  line-height: inherit;
+}
