@@ -40,8 +40,8 @@
         "company": "SKAN",
         "items": {
           "item1": "Desenvolver sistemas de controle SCADA para máquinas farmacêuticas, garantindo documentação extensa e conformidade com padrões GMP. Utilização de zenon, C# e SQL no desenvolvimento.",
-          "item2": "Colaborar com clientes, gerentes de projeto e equipes de engenharia para entregar soluções completas de controle, integrando software SCADA a uma arquitetura de rede robusta para assegurar desempenho contínuo.",
-          "item3": "Traduzir requisitos complexos e por vezes pouco claros em planos de engenharia claros e acionáveis, com foco na experiência do usuário final"
+          "item2": "Implementar a integração de sistemas entre a camada de supervisão, o MES, os PLCs e a infraestrutura IT-OT do cliente, diagnosticando e resolvendo problemas de integração em ambientes heterogéneos.",
+          "item3": "Traduzir requisitos complexos e por vezes pouco claros em planos de engenharia claros e acionáveis, com foco na experiência do usuário final."
         },
         "dates": "Janeiro de 2025 - Presente",
         "location": "Basileia, Suíça"
