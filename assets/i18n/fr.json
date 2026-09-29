@@ -39,12 +39,12 @@
         "title": "Ingénieur automatisme",
         "company": "SKAN",
         "items": {
-          "item1": "Développé des logiciels SCADA de visualisation des procédés et d'acquisition de données pour des systèmes de production pharmaceutique avec zenon, C# et SQL, sur plusieurs projets clients menés en parallèle sous contrôle formel des versions et des modifications.",
-          "item2": "Mis en œuvre l'intégration des systèmes entre la couche de supervision, le MES, les PLC et l'infrastructure IT-OT du client, en diagnostiquant et résolvant les problèmes d'intégration dans des environnements hétérogènes.",
-          "item3": "Rédigé et exécuté des plans et programmes de test dans le cadre de la qualification GMP des systèmes, en assurant la traçabilité entre exigences, implémentation et preuves de test.",
-          "item4": "Déployé et mis en service des systèmes sur des infrastructures Windows Server et VMware ESXi chez SKAN et sur les sites clients, en travaillant directement avec les équipes clientes, des exigences jusqu'à la remise sur site et la réception."
+          "item1": "Développer des logiciels SCADA de visualisation des procédés et d'acquisition de données pour des systèmes de production pharmaceutique avec zenon, C# et SQL, sur plusieurs projets clients menés en parallèle sous contrôle formel des versions et des modifications.",
+          "item2": "Mettre en œuvre l'intégration des systèmes entre la couche de supervision, le MES, les PLC et l'infrastructure IT-OT du client, en diagnostiquant et résolvant les problèmes d'intégration dans des environnements hétérogènes.",
+          "item3": "Rédiger et exécuter des plans et programmes de test dans le cadre de la qualification GMP des systèmes, en assurant la traçabilité entre exigences, implémentation et preuves de test.",
+          "item4": "Déployer et mettre en service des systèmes sur des infrastructures Windows Server et VMware ESXi chez SKAN et sur les sites clients, en travaillant directement avec les équipes clientes, des exigences jusqu'à la remise sur site et la réception."
         },
-        "dates": "Janvier 2025 - Juillet 2026",
+        "dates": "Janvier 2025 - Aujourd'hui",
         "location": "Bâle, Suisse"
       },
       "controlFellow": {

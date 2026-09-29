@@ -39,12 +39,12 @@
         "title": "Automation Engineer",
         "company": "SKAN",
         "items": {
-          "item1": "Developed SCADA process visualization and data acquisition software for pharmaceutical production systems in zenon, C# and SQL, working across concurrent customer-facing projects under formal version and change control.",
-          "item2": "Implemented systems integration between the supervisory layer, MES, PLCs, and customer IT-OT infrastructure, debugging and resolving integration issues across heterogeneous environments.",
-          "item3": "Wrote and executed test plans and test programs as part of GMP system qualification, maintaining traceability between requirements, implementation and test evidence.",
-          "item4": "Deployed and commissioned systems on Windows Server and VMware ESXi infrastructure at SKAN and at customer sites, working directly with client teams through requirements, on-site handover and acceptance."
+          "item1": "Develop SCADA process visualization and data acquisition software for pharmaceutical production systems in zenon, C# and SQL, working across concurrent customer-facing projects under formal version and change control.",
+          "item2": "Implement systems integration between the supervisory layer, MES, PLCs, and customer IT-OT infrastructure, debugging and resolving integration issues across heterogeneous environments.",
+          "item3": "Write and execute test plans and test programs as part of GMP system qualification, maintaining traceability between requirements, implementation and test evidence.",
+          "item4": "Deploy and commission systems on Windows Server and VMware ESXi infrastructure at SKAN and at customer sites, working directly with client teams through requirements, on-site handover and acceptance."
         },
-        "dates": "Jan 2025 - July 2026",
+        "dates": "Jan 2025 - Present",
         "location": "Basel, Switzerland"
       },
       "controlFellow": {

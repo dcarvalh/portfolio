@@ -39,12 +39,12 @@
         "title": "Engenheiro de automação",
         "company": "SKAN",
         "items": {
-          "item1": "Desenvolvi software SCADA de visualização de processos e aquisição de dados para sistemas de produção farmacêutica em zenon, C# e SQL, em vários projetos de clientes em simultâneo, sob controlo formal de versões e alterações.",
-          "item2": "Implementei a integração de sistemas entre a camada de supervisão, o MES, os PLCs e a infraestrutura IT-OT do cliente, diagnosticando e resolvendo problemas de integração em ambientes heterogéneos.",
-          "item3": "Escrevi e executei planos e programas de teste no âmbito da qualificação GMP de sistemas, mantendo a rastreabilidade entre requisitos, implementação e evidências de teste.",
-          "item4": "Instalei e comissionei sistemas em infraestruturas Windows Server e VMware ESXi na SKAN e nas instalações dos clientes, trabalhando diretamente com as equipas dos clientes desde os requisitos até à entrega no local e aceitação."
+          "item1": "Desenvolver software SCADA de visualização de processos e aquisição de dados para sistemas de produção farmacêutica em zenon, C# e SQL, em vários projetos de clientes em simultâneo, sob controlo formal de versões e alterações.",
+          "item2": "Implementar a integração de sistemas entre a camada de supervisão, o MES, os PLCs e a infraestrutura IT-OT do cliente, diagnosticando e resolvendo problemas de integração em ambientes heterogéneos.",
+          "item3": "Escrever e executar planos e programas de teste no âmbito da qualificação GMP de sistemas, mantendo a rastreabilidade entre requisitos, implementação e evidências de teste.",
+          "item4": "Instalar e comissionar sistemas em infraestruturas Windows Server e VMware ESXi na SKAN e nas instalações dos clientes, trabalhando diretamente com as equipas dos clientes desde os requisitos até à entrega no local e aceitação."
         },
-        "dates": "Janeiro de 2025 - Julho de 2026",
+        "dates": "Janeiro de 2025 - Presente",
         "location": "Basileia, Suíça"
       },
       "controlFellow": {
