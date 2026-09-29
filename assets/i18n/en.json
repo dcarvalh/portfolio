@@ -185,6 +185,13 @@
   },
   "volunteering": {
     "title": "Volunteering &amp; Events",
+    "genevaHackathon": {
+      "title": "Swiss {ai} Weeks Geneva Hackathon 2026",
+      "role": "Lead Developer - ICRC Challenge",
+      "description": "Led the development of an AI negotiation simulator for humanitarian negotiators, in a team of 6. An LLM plays the counterpart, but the score comes from rules in an editable scenario file: every criterion needs a quote from the trainee as evidence, and a live trainer console steers the negotiation (Python, Streamlit, LLMs, ElevenLabs voice).",
+      "link": "Event Details",
+      "dates": "September 2026"
+    },
     "afterschool": {
       "title": "Afterschool by treetree2",
       "role": "Author - Content Creator",

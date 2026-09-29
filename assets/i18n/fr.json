@@ -185,6 +185,13 @@
   },
   "volunteering": {
     "title": "Bénévolat &amp; événements",
+    "genevaHackathon": {
+      "title": "Swiss {ai} Weeks Geneva Hackathon 2026",
+      "role": "Développeur principal - Défi du CICR",
+      "description": "Dirigé le développement d'un simulateur de négociation par IA pour les négociateurs humanitaires, au sein d'une équipe de 6. Un LLM joue l'interlocuteur, mais le score vient de règles définies dans un fichier de scénario modifiable : chaque critère exige une citation du participant comme preuve, et une console formateur en direct pilote la négociation (Python, Streamlit, LLM, voix ElevenLabs).",
+      "link": "Informations sur l'événement",
+      "dates": "Septembre 2026"
+    },
     "afterschool": {
       "title": "Afterschool by treetree2",
       "role": "Auteur - Créateur de contenu",
