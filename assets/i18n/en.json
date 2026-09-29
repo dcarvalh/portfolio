@@ -39,33 +39,35 @@
         "title": "Automation Engineer",
         "company": "SKAN",
         "items": {
-          "item1": "Develop SCADA control systems for pharmaceutical machinery, ensuring extensive documentation and compliance with GMP standards. Using zenon, C#, and SQL for development.",
-          "item2": "Implement systems integration between the supervisory layer, MES, PLCs, and customer IT-OT infrastructure, debugging and resolving integration issues across heterogeneous environments.",
-          "item3": "Translate complex and sometimes unclear requirements into clear, actionable engineering plans with a focus on the end-user experience."
+          "item1": "Developed SCADA process visualization and data acquisition software for pharmaceutical production systems in zenon, C# and SQL, working across concurrent customer-facing projects under formal version and change control.",
+          "item2": "Implemented systems integration between the supervisory layer, MES, PLCs, and customer IT-OT infrastructure, debugging and resolving integration issues across heterogeneous environments.",
+          "item3": "Wrote and executed test plans and test programs as part of GMP system qualification, maintaining traceability between requirements, implementation and test evidence.",
+          "item4": "Deployed and commissioned systems on Windows Server and VMware ESXi infrastructure at SKAN and at customer sites, working directly with client teams through requirements, on-site handover and acceptance."
         },
-        "dates": "Jan 2025 - Present",
+        "dates": "Jan 2025 - July 2026",
         "location": "Basel, Switzerland"
       },
       "controlFellow": {
-        "title": "Control Software Engineer, Fellow",
+        "title": "Senior Control Software Engineer (Fellow)",
         "company": "CERN - European Center for Nuclear Research",
         "items": {
-          "item1": "Designed, developed, commissioned, and maintained large, operational critical, distributed SCADA control systems for power converters plants across CERN: created scripts, libraries, and GUI's using CTRL++, a C++ syntax-based language.",
-          "item2": "Led and developed a Python-based CI/CD framework that automatically tested software for Siemens PLCs applications based on project specifications:  created tests and managed pipelines through GitLab CI.",
-          "item3": "Supervised a technical student for 9 months working on consolidating the CI/CD framework.",
-          "item4": "Coordinated a team of 5 people providing internal support for real-time control systems software and hardware: used JIRA for issue tracking and ticket management.",
-          "item5": "Solved urgent operational issues for power converter control systems as a standby service 24/7 every 2-3 months."
+          "item1": "Designed, commissioned and maintained distributed control systems for high-power converter plants across the CERN accelerator complex, running on tens of PLCs and thousands of IO points.",
+          "item2": "Led and developed a Python-based CI/CD automated testing framework for hardware-in-the-loop (HIL) and functional validation of control software against Siemens S7-1500 PLCs over OPC-UA, building and maintaining the GitLab CI runners on Windows and Linux, with automated log analysis, test execution, and report generation across pipelines.",
+          "item3": "Recruited and supervised a Master's student for 9 months contributing to the Python CI/CD framework.",
+          "item4": "Internal support coordinator for the section from 2023, leading a team of 5 supporting real-time control software and hardware. Analyzed the service workflow, identified the bottleneck, and made the case to management for a tool that substantially reduced the cost of the service.",
+          "item5": "Solved urgent operational issues for power converter control systems as a 24/7 standby service, maintaining high availability for the accelerator complex."
         },
         "dates": "March 2022 - Feb 2024",
         "location": "Geneva, Switzerland"
       },
       "controlPjas": {
-        "title": "Control Software Engineer, PJAS",
+        "title": "Junior Control Software Engineer (PJAS)",
         "company": "CERN - European Center for Nuclear Research",
         "items": {
-          "item1": "Developed SCADA applications for the control of power converter plants across CERN, including critical control systems for several accelerators: developed scripts, libraries, and GUI's using CTRL++ (C++ based).",
-          "item2": "Implemented industrial communication protocols between field devices and SCADA: S7; IEC-104; and MODBUS.",
-          "item3": "Developed Python, Bash, and PowerShell scripts to automate consistent file directory structure for the team's projects."
+          "item1": "Developed advanced control libraries, HMI widgets and operator panels in CTRL++ (C++ syntax-based language) for power converter control systems across CERN, deploying and maintaining the applications on Linux servers.",
+          "item2": "Implemented industrial communication protocols (S7, IEC-104, MODBUS, PROFINET and PROFIBUS) between field devices and SCADA.",
+          "item3": "Owned testing of the new supervisory applications commissioned during Long Shutdown 2, supporting the power engineers through the accelerator restart.",
+          "item4": "Developed Python, Bash, and PowerShell scripts to automate consistent file directory structure for the team's projects."
         },
         "dates": "March 2019 - Feb 2022",
         "location": "Geneva, Switzerland"
@@ -74,7 +76,7 @@
         "title": "Intern",
         "company": "Synopsys",
         "items": {
-          "item1": "Created a Python-based Qt application that scheduled and monitored CI/CD testing of mixed-signal electronics."
+          "item1": "Built a Python/Qt desktop application to schedule, launch, and monitor CI/CD testing pipelines for mixed-signal electronics."
         },
         "dates": "July 2017 - September 2017",
         "location": "Lisbon, Portugal"
