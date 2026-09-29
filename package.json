@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp -R node_modules/startbootstrap-resume/dist/* ./",
+    "reset-to-template": "printf 'This OVERWRITES index.html, css/, js/ and assets/img/ with the blank Start Bootstrap Resume template.\\nType yes to continue: ' && read answer && [ \"$answer\" = yes ] && cp -R node_modules/startbootstrap-resume/dist/* ./ && echo 'Template copied.' || echo 'Cancelled, nothing was changed.'",
     "server": "concurrently \"lite-server\" \"/mnt/c/Program\\ Files/Google/Chrome/Application/chrome.exe http://localhost:3000\"",
     "start": "lite-server"
   },
