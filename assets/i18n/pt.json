@@ -188,7 +188,7 @@
     "genevaHackathon": {
       "title": "Swiss {ai} Weeks Geneva Hackathon 2026",
       "role": "Programador principal - Desafio do CICV",
-      "description": "Liderei o desenvolvimento de um simulador de negociação com IA para negociadores humanitários, numa equipa de 6 pessoas. Um LLM faz de interlocutor, mas a pontuação vem de regras definidas num ficheiro de cenário editável: cada critério exige uma citação do formando como prova, e uma consola do formador em tempo real conduz a negociação (Python, Streamlit, LLMs, voz ElevenLabs).",
+      "description": "Liderei o desenvolvimento de um simulador de negociação com IA para negociadores humanitários, numa equipa de 5 pessoas. Um LLM faz de interlocutor, mas a pontuação vem de regras definidas num ficheiro de cenário editável: cada critério exige uma citação do formando como prova, e uma consola do formador em tempo real conduz a negociação (Python, Streamlit, LLMs, voz ElevenLabs).",
       "link": "Detalhes do evento",
       "dates": "Setembro de 2026"
     },
