@@ -12,7 +12,7 @@
       "experience": "Experience",
       "education": "Education",
       "skills": "Skills",
-      "volunteering": "Volunteering"
+      "volunteering": "Projects"
     },
     "language": {
       "label": "Language",
@@ -184,13 +184,19 @@
     }
   },
   "volunteering": {
-    "title": "Volunteering &amp; Events",
+    "title": "Projects",
     "genevaHackathon": {
       "title": "Swiss {ai} Weeks Geneva Hackathon 2026",
       "role": "Lead Developer - ICRC Challenge",
       "description": "Led the development of an AI negotiation simulator for humanitarian negotiators, in a team of 5. An LLM plays the counterpart, but the score comes from rules in an editable scenario file: every criterion needs a quote from the trainee as evidence, and a live trainer console steers the negotiation (Python, Streamlit, LLMs, ElevenLabs voice).",
       "link": "Event Details",
       "dates": "September 2026"
+    },
+    "homelab": {
+      "title": "Self-hosted infrastructure (home-lab)",
+      "role": "Personal Project",
+      "description": "Running a self-hosted home server environment with Docker containers, NAS storage, and home network services, covering container deployment, storage configuration, Linux and network administration outside of work.",
+      "dates": "2024 - Present"
     },
     "afterschool": {
       "title": "Afterschool by treetree2",
