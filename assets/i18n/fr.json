@@ -30,7 +30,7 @@
     },
     "location": "Genève, Suisse ·",
     "email": "david.belo.carvalho@gmail.com",
-    "lead": "Bonjour, je suis David. <span class=\"wave\">👋</span><br /><br />Je suis Ingénieur Électrique et Informatique (MSc), spécialisé en développement logiciel et en systèmes de contrôle. Tout au long de ma carrière, j'ai construit des systèmes critiques pour les accélérateurs de particules du CERN et pour des lignes de remplissage pharmaceutiques (des environnements critiques et réglementés). Je suis à l'aise entre le code et le matériel : logiciel, infrastructure, réseaux, et tout ce qu'il y a entre les deux (gestion de versions, tests, CI/CD). J'ai dirigé des équipes, encadré des ingénieurs juniors, géré des clients et assuré le service de piquet 24/7. Passionné d'aérospatiale, enthousiaste de l'IA. Anglais et portugais courants, français B1 et en progression.<br /><br /><strong>TL;DR: </strong> « il travaille dans l'informatique » - (Python, CI/CD, Linux, Réseaux, Systèmes)<br /><br />"
+    "lead": "Bonjour, je suis David. <span class=\"wave\">👋</span><br /><br />Je suis Ingénieur Électrique et Informatique (MSc), spécialisé en développement logiciel et en systèmes de contrôle. Tout au long de ma carrière, j'ai construit des systèmes critiques pour les accélérateurs de particules du CERN et pour des lignes de remplissage pharmaceutiques (des environnements critiques et réglementés). Je suis à l'aise entre le code et le matériel : logiciel, infrastructure, réseaux, et tout ce qu'il y a entre les deux (gestion de versions, tests, CI/CD). J'ai dirigé des équipes, encadré des ingénieurs juniors, géré des clients et assuré le service de piquet 24/7. Passionné d'aérospatiale, enthousiaste de l'IA. Anglais et portugais courants, français B1 et en progression.<br /><br /><strong>TL;DR: </strong> Python, CI/CD, Linux, Réseaux, Systèmes<br /><br />"
   },
   "experience": {
     "title": "Expérience",
@@ -39,33 +39,35 @@
         "title": "Ingénieur automatisme",
         "company": "SKAN",
         "items": {
-          "item1": "Développer des systèmes de contrôle SCADA pour des machines pharmaceutiques, en garantissant une documentation approfondie et la conformité aux normes GMP. Utilisation de zenon, C# et SQL pour le développement.",
+          "item1": "Développer des logiciels SCADA de visualisation des procédés et d'acquisition de données pour des systèmes de production pharmaceutique avec zenon, C# et SQL, sur plusieurs projets clients menés en parallèle sous contrôle formel des versions et des modifications.",
           "item2": "Mettre en œuvre l'intégration des systèmes entre la couche de supervision, le MES, les PLC et l'infrastructure IT-OT du client, en diagnostiquant et résolvant les problèmes d'intégration dans des environnements hétérogènes.",
-          "item3": "Traduire des exigences complexes et parfois floues en plans d'ingénierie clairs et actionnables, avec un souci constant de l'expérience utilisateur finale."
+          "item3": "Rédiger et exécuter des plans et programmes de test dans le cadre de la qualification GMP des systèmes, en assurant la traçabilité entre exigences, implémentation et preuves de test.",
+          "item4": "Déployer et mettre en service des systèmes sur des infrastructures Windows Server et VMware ESXi chez SKAN et sur les sites clients, en travaillant directement avec les équipes clientes, des exigences jusqu'à la remise sur site et la réception."
         },
         "dates": "Janvier 2025 - Aujourd'hui",
         "location": "Bâle, Suisse"
       },
       "controlFellow": {
-        "title": "Ingénieur logiciel de contrôle, Fellow",
+        "title": "Ingénieur logiciel de contrôle senior (Fellow)",
         "company": "CERN - Organisation européenne pour la recherche nucléaire",
         "items": {
-          "item1": "Conçu, développé, mis en service et maintenu de grands systèmes SCADA distribués critiques pour l'exploitation des centrales de convertisseurs de puissance du CERN : création de scripts, bibliothèques et interfaces graphiques avec CTRL++, un langage basé sur la syntaxe C++.",
-          "item2": "Dirigé et développé un cadre CI/CD en Python testant automatiquement les logiciels des applications PLC Siemens selon les spécifications des projets : création de tests et gestion des pipelines via GitLab CI.",
-          "item3": "Supervisé pendant 9 mois un étudiant technique chargé de consolider le cadre CI/CD.",
-          "item4": "Coordonné une équipe de 5 personnes fournissant un support interne pour les logiciels et matériels de contrôle temps réel : utilisation de JIRA pour le suivi et la gestion des tickets.",
-          "item5": "Résolu des incidents opérationnels urgents sur les systèmes de contrôle des convertisseurs de puissance en assurant une astreinte 24/7 tous les 2 à 3 mois."
+          "item1": "Conçu, mis en service et maintenu des systèmes de contrôle distribués pour les centrales de convertisseurs de haute puissance du complexe d'accélérateurs du CERN, fonctionnant sur des dizaines de PLC et des milliers de points d'E/S.",
+          "item2": "Dirigé et développé un cadre de test automatisé CI/CD en Python pour la validation hardware-in-the-loop (HIL) et fonctionnelle de logiciels de contrôle sur des PLC Siemens S7-1500 via OPC-UA, en construisant et maintenant les runners GitLab CI sous Windows et Linux, avec analyse automatique des logs, exécution des tests et génération de rapports dans les pipelines.",
+          "item3": "Recruté et supervisé pendant 9 mois un étudiant en master contribuant au cadre CI/CD en Python.",
+          "item4": "Coordinateur du support interne de la section à partir de 2023, à la tête d'une équipe de 5 personnes assurant le support des logiciels et matériels de contrôle temps réel. Analysé le fonctionnement du service, identifié le goulot d'étranglement et défendu auprès de la direction un outil qui a nettement réduit le coût du service.",
+          "item5": "Résolu des incidents opérationnels urgents sur les systèmes de contrôle des convertisseurs de puissance dans le cadre d'une astreinte 24/7, en garantissant la haute disponibilité du complexe d'accélérateurs."
         },
         "dates": "Mars 2022 - Février 2024",
         "location": "Genève, Suisse"
       },
       "controlPjas": {
-        "title": "Ingénieur logiciel de contrôle, PJAS",
+        "title": "Ingénieur logiciel de contrôle junior (PJAS)",
         "company": "CERN - Organisation européenne pour la recherche nucléaire",
         "items": {
-          "item1": "Développé des applications SCADA pour le contrôle des centrales de convertisseurs de puissance du CERN, y compris des systèmes critiques pour plusieurs accélérateurs : développement de scripts, bibliothèques et interfaces avec CTRL++ (basé sur C++).",
-          "item2": "Implémenté des protocoles de communication industrielle entre les équipements terrain et le SCADA : S7, IEC-104 et MODBUS.",
-          "item3": "Développé des scripts Python, Bash et PowerShell afin d'automatiser une structure cohérente de répertoires pour les projets de l'équipe."
+          "item1": "Développé des bibliothèques de contrôle avancées, des widgets IHM et des panneaux opérateur en CTRL++ (langage à syntaxe C++) pour les systèmes de contrôle des convertisseurs de puissance du CERN, avec déploiement et maintenance des applications sur des serveurs Linux.",
+          "item2": "Implémenté des protocoles de communication industrielle (S7, IEC-104, MODBUS, PROFINET et PROFIBUS) entre les équipements terrain et le SCADA.",
+          "item3": "Responsable des tests des nouvelles applications de supervision mises en service pendant le Long Shutdown 2, en accompagnant les ingénieurs de puissance lors du redémarrage des accélérateurs.",
+          "item4": "Développé des scripts Python, Bash et PowerShell afin d'automatiser une structure cohérente de répertoires pour les projets de l'équipe."
         },
         "dates": "Mars 2019 - Février 2022",
         "location": "Genève, Suisse"
@@ -74,7 +76,7 @@
         "title": "Stagiaire",
         "company": "Synopsys",
         "items": {
-          "item1": "Créé une application Qt en Python qui planifiait et surveillait les tests CI/CD d'électronique mixtes."
+          "item1": "Développé une application de bureau Python/Qt pour planifier, lancer et surveiller des pipelines de test CI/CD pour l'électronique à signaux mixtes."
         },
         "dates": "Juillet 2017 - Septembre 2017",
         "location": "Lisbonne, Portugal"

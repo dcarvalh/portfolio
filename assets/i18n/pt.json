@@ -30,7 +30,7 @@
     },
     "location": "Genebra, Suíça ·",
     "email": "david.belo.carvalho@gmail.com",
-    "lead": "Olá, sou o David. <span class=\"wave\">👋</span><br /><br />Sou Engenheiro Eletrotécnico e de Computadores (MSc), especializado em desenvolvimento de software e sistemas de controlo. Ao longo da minha carreira construí sistemas de controlo para os aceleradores de partículas do CERN e para linhas de processamento de vacinas farmacêuticas. Sinto-me confortável entre código e hardware: software, infraestrutura, redes, controlo de versões, testes, CI/CD. Já liderei equipas, orientei engenheiros júnior, lidei com clientes e fiz suporte de piquete 24/7. Nerd por espaço, entusiasta em IA. Fluente em inglês e português, francês B1 e em evolução.<br /><br /><strong>TL;DR: </strong> \"ele trabalha com computadores\" - (Python, CI/CD, Linux, Redes, Sistemas de Controlo)<br /><br />"
+    "lead": "Olá, sou o David. <span class=\"wave\">👋</span><br /><br />Sou Engenheiro Eletrotécnico e de Computadores (MSc), especializado em desenvolvimento de software e sistemas de controlo. Ao longo da minha carreira construí sistemas de controlo para os aceleradores de partículas do CERN e para linhas de processamento de vacinas farmacêuticas. Sinto-me confortável entre código e hardware: software, infraestrutura, redes, controlo de versões, testes, CI/CD. Já liderei equipas, orientei engenheiros júnior, lidei com clientes e fiz suporte de piquete 24/7. Nerd por espaço, entusiasta em IA. Fluente em inglês e português, francês B1 e em evolução.<br /><br /><strong>TL;DR: </strong> Python, CI/CD, Linux, Redes, Sistemas de Controlo<br /><br />"
   },
   "experience": {
     "title": "Experiência",
@@ -39,33 +39,35 @@
         "title": "Engenheiro de automação",
         "company": "SKAN",
         "items": {
-          "item1": "Desenvolver sistemas de controle SCADA para máquinas farmacêuticas, garantindo documentação extensa e conformidade com padrões GMP. Utilização de zenon, C# e SQL no desenvolvimento.",
+          "item1": "Desenvolver software SCADA de visualização de processos e aquisição de dados para sistemas de produção farmacêutica em zenon, C# e SQL, em vários projetos de clientes em simultâneo, sob controlo formal de versões e alterações.",
           "item2": "Implementar a integração de sistemas entre a camada de supervisão, o MES, os PLCs e a infraestrutura IT-OT do cliente, diagnosticando e resolvendo problemas de integração em ambientes heterogéneos.",
-          "item3": "Traduzir requisitos complexos e por vezes pouco claros em planos de engenharia claros e acionáveis, com foco na experiência do usuário final."
+          "item3": "Escrever e executar planos e programas de teste no âmbito da qualificação GMP de sistemas, mantendo a rastreabilidade entre requisitos, implementação e evidências de teste.",
+          "item4": "Instalar e comissionar sistemas em infraestruturas Windows Server e VMware ESXi na SKAN e nas instalações dos clientes, trabalhando diretamente com as equipas dos clientes desde os requisitos até à entrega no local e aceitação."
         },
         "dates": "Janeiro de 2025 - Presente",
         "location": "Basileia, Suíça"
       },
       "controlFellow": {
-        "title": "Engenheiro de software de controle, Fellow",
+        "title": "Engenheiro de software de controlo sénior (Fellow)",
         "company": "CERN - Organização Europeia para Pesquisa Nuclear",
         "items": {
-          "item1": "Projetei, desenvolvi, comissionei e mantive grandes sistemas SCADA distribuídos e críticos para a operação de plantas de conversores de potência no CERN: criação de scripts, bibliotecas e interfaces usando CTRL++, uma linguagem baseada em C++.",
-          "item2": "Liderei e desenvolvi uma estrutura de CI/CD em Python que testava automaticamente software para aplicações PLC Siemens conforme as especificações dos projetos: criação de testes e gestão de pipelines via GitLab CI.",
-          "item3": "Supervisionei por 9 meses um estudante técnico que trabalhava na consolidação da estrutura de CI/CD.",
-          "item4": "Coordenei uma equipe de 5 pessoas prestando suporte interno para software e hardware de sistemas de controle em tempo real: uso do JIRA para registro e gestão de tickets.",
-          "item5": "Resolvi incidentes operacionais urgentes em sistemas de controle de conversores de potência atuando em regime de plantão 24/7 a cada 2-3 meses."
+          "item1": "Projetei, comissionei e mantive sistemas de controlo distribuídos para instalações de conversores de alta potência em todo o complexo de aceleradores do CERN, a funcionar em dezenas de PLCs e milhares de pontos de E/S.",
+          "item2": "Liderei e desenvolvi uma framework de testes automáticos CI/CD em Python para validação hardware-in-the-loop (HIL) e funcional de software de controlo em PLCs Siemens S7-1500 via OPC-UA, construindo e mantendo os runners de GitLab CI em Windows e Linux, com análise automática de logs, execução de testes e geração de relatórios nas pipelines.",
+          "item3": "Recrutei e supervisionei durante 9 meses um estudante de mestrado que contribuiu para a framework de CI/CD em Python.",
+          "item4": "Coordenador do suporte interno da secção a partir de 2023, liderando uma equipa de 5 pessoas no suporte a software e hardware de controlo em tempo real. Analisei o fluxo de trabalho do serviço, identifiquei o ponto de estrangulamento e defendi junto da gestão uma ferramenta que reduziu substancialmente o custo do serviço.",
+          "item5": "Resolvi problemas operacionais urgentes em sistemas de controlo de conversores de potência em regime de piquete 24/7, garantindo a alta disponibilidade do complexo de aceleradores."
         },
         "dates": "Março de 2022 - Fevereiro de 2024",
         "location": "Genebra, Suíça"
       },
       "controlPjas": {
-        "title": "Engenheiro de software de controle, PJAS",
+        "title": "Engenheiro de software de controlo júnior (PJAS)",
         "company": "CERN - Organização Europeia para Pesquisa Nuclear",
         "items": {
-          "item1": "Desenvolvi aplicações SCADA para o controle de plantas de conversores de potência no CERN, incluindo sistemas críticos para diversos aceleradores: desenvolvimento de scripts, bibliotecas e interfaces com CTRL++ (baseado em C++).",
-          "item2": "Implementei protocolos de comunicação industrial entre dispositivos de campo e SCADA: S7; IEC-104; e MODBUS.",
-          "item3": "Desenvolvi scripts em Python, Bash e PowerShell para automatizar uma estrutura consistente de diretórios para os projetos da equipe."
+          "item1": "Desenvolvi bibliotecas de controlo avançadas, widgets de IHM e painéis de operador em CTRL++ (linguagem com sintaxe baseada em C++) para sistemas de controlo de conversores de potência em todo o CERN, instalando e mantendo as aplicações em servidores Linux.",
+          "item2": "Implementei protocolos de comunicação industrial (S7, IEC-104, MODBUS, PROFINET e PROFIBUS) entre dispositivos de campo e SCADA.",
+          "item3": "Responsável pelos testes das novas aplicações de supervisão comissionadas durante o Long Shutdown 2, apoiando os engenheiros de potência no rearranque dos aceleradores.",
+          "item4": "Desenvolvi scripts em Python, Bash e PowerShell para automatizar uma estrutura consistente de diretórios para os projetos da equipa."
         },
         "dates": "Março de 2019 - Fevereiro de 2022",
         "location": "Genebra, Suíça"
@@ -74,7 +76,7 @@
         "title": "Estagiário",
         "company": "Synopsys",
         "items": {
-          "item1": "Criei uma aplicação Qt em Python que programava e monitorava testes CI/CD de eletrônica de sinal misto."
+          "item1": "Desenvolvi uma aplicação desktop em Python/Qt para agendar, lançar e monitorizar pipelines de testes CI/CD de eletrónica de sinal misto."
         },
         "dates": "Julho de 2017 - Setembro de 2017",
         "location": "Lisboa, Portugal"
