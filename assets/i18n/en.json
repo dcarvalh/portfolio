@@ -195,7 +195,7 @@
     "homelab": {
       "title": "Self-hosted infrastructure (home-lab)",
       "role": "Personal Project",
-      "description": "Running a self-hosted home server environment with Docker containers, NAS storage, and home network services, covering container deployment, storage configuration, Linux and network administration outside of work.",
+      "description": "Running a self-hosted home server environment with Docker containers, NAS storage, and home network services, covering container deployment, storage configuration, Linux and network administration outside of work. Building and running AI agents on it with Claude Code and Hermes Agent (Nous Research) to help manage my workflows.",
       "dates": "2024 - Present"
     },
     "afterschool": {

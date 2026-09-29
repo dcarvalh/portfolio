@@ -195,7 +195,7 @@
     "homelab": {
       "title": "Infrastructure auto-hébergée (home-lab)",
       "role": "Projet personnel",
-      "description": "Gestion d'un environnement de serveur domestique auto-hébergé avec des conteneurs Docker, un stockage NAS et des services réseau domestiques, couvrant le déploiement de conteneurs, la configuration du stockage ainsi que l'administration Linux et réseau en dehors du travail.",
+      "description": "Gestion d'un environnement de serveur domestique auto-hébergé avec des conteneurs Docker, un stockage NAS et des services réseau domestiques, couvrant le déploiement de conteneurs, la configuration du stockage ainsi que l'administration Linux et réseau en dehors du travail. Création et exploitation d'agents IA sur cette infrastructure avec Claude Code et Hermes Agent (Nous Research) pour m'aider à gérer mes flux de travail.",
       "dates": "2024 - Aujourd'hui"
     },
     "afterschool": {

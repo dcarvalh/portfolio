@@ -195,7 +195,7 @@
     "homelab": {
       "title": "Infraestrutura auto-alojada (home-lab)",
       "role": "Projeto pessoal",
-      "description": "Gestão de um servidor doméstico auto-alojado com contentores Docker, armazenamento NAS e serviços de rede doméstica, abrangendo a implementação de contentores, a configuração do armazenamento e a administração de Linux e de redes fora do trabalho.",
+      "description": "Gestão de um servidor doméstico auto-alojado com contentores Docker, armazenamento NAS e serviços de rede doméstica, abrangendo a implementação de contentores, a configuração do armazenamento e a administração de Linux e de redes fora do trabalho. Criação e execução de agentes de IA nesta infraestrutura com Claude Code e Hermes Agent (Nous Research) para me ajudar a gerir os meus fluxos de trabalho.",
       "dates": "2024 - Presente"
     },
     "afterschool": {
