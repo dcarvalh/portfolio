@@ -19,7 +19,7 @@ export default {
 
     try {
       if (path === '/') return Response.redirect(new URL('/cv', url), 302);
-      if (path === '/cv' && request.method === 'GET') {
+      if (path === '/cv' && (request.method === 'GET' || request.method === 'HEAD')) {
         return html(formPage({ siteKey: env.TURNSTILE_SITE_KEY, source: cleanSource(url.searchParams.get('s')) }));
       }
       if (path === '/cv' && request.method === 'POST') return await submit(request, env, ctx);
