@@ -1,1 +1,4 @@
 node_modules
+
+# Never commit PDFs (keeps the CV out of the public repo)
+*.pdf

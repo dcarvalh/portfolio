@@ -1,0 +1,15 @@
+# Cloudflare Worker serving davidcarvalho.work/cv
+name = "cv-download"
+main = "src/index.js"
+compatibility_date = "2026-09-30"
+
+# Download log (name, company, email, time). Real id is filled in at step 3.
+[[d1_databases]]
+binding = "DB"
+database_name = "cv-downloads"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+# Private storage for the CV PDF (no public access).
+[[r2_buckets]]
+binding = "CV_BUCKET"
+bucket_name = "cv-private"

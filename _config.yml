@@ -1,0 +1,4 @@
+# GitHub Pages (Jekyll) settings.
+# cv-download/ is the Cloudflare Worker behind davidcarvalho.work/cv; don't publish its source.
+exclude:
+  - cv-download

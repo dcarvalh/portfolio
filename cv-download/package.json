@@ -1,0 +1,12 @@
+{
+  "name": "cv-download",
+  "private": true,
+  "description": "CV download page for davidcarvalho.work/cv (Cloudflare Worker)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.144.0"
+  }
+}
