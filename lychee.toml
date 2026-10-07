@@ -11,3 +11,7 @@ max_retries = 2
 exclude = [
   "^https://www\\.linkedin\\.com/",
 ]
+
+# Skip localhost/127.0.0.1 links (e.g. the local preview URL in README.md):
+# nothing is listening on them when the check runs in CI.
+exclude_loopback = true
