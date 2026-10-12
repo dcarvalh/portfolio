@@ -7,14 +7,34 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # commit link fallback swaps
   issues: write
+  pages: write # rebuild the site after a swap
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+
+      # Links listed in .github/link-fallbacks.toml are switched to their
+      # first live candidate before lychee runs.
+      - name: Switch links to a live fallback
+        id: fallbacks
+        run: python3 .github/scripts/link_fallbacks.py
+
+      - name: Commit and publish link fallback swaps
+        if: steps.fallbacks.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SUMMARY: ${{ steps.fallbacks.outputs.summary }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -a -m "Link check: switch to a live fallback link" -m "$SUMMARY"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          # Pushes made with GITHUB_TOKEN may not trigger a Pages build on their own.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
 
       - name: Check links
         id: lychee
