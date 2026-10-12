@@ -1,0 +1,16 @@
+# Links with a fallback, used by .github/scripts/link_fallbacks.py in the
+# link-check workflow. For each [[link]], the candidates are the same link's
+# possible URLs in order of preference: the workflow switches the file to the
+# first candidate that loads and contains its `expect` text, and leaves the
+# file alone (so lychee reports the broken link) when none of them load.
+#
+# `expect` guards against a dead site's domain being parked or taken over:
+# a page that loads but doesn't mention it doesn't count as live.
+
+# Act in Space 2018: the original Coimbra article, then ESA's page on the event.
+[[link]]
+file = "index.html"
+candidates = [
+  { url = "https://portugalstartups.com/2018/05/space-competition-coimbra/", expect = "Coimbra" },
+  { url = "https://www.esa.int/esatv/Videos/2018/05/Thousands_compete_in_worldwide_ActInSpace_2018_24-hour_hackathon", expect = "ActInSpace" },
+]
