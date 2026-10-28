@@ -31,7 +31,7 @@
     "location": "Genebra, Suíça ·",
     "email": "david.belo.carvalho@gmail.com",
     "cvButton": "Descarregar CV",
-    "lead": "Olá, sou o David. <span class=\"wave\">👋</span><br /><br />Sou Engenheiro Eletrotécnico e de Computadores (MSc), especializado em desenvolvimento de software e sistemas de controlo. Ao longo da minha carreira construí sistemas de controlo para os aceleradores de partículas do CERN e para linhas de processamento de vacinas farmacêuticas. Sinto-me confortável entre código e hardware: software, infraestrutura, redes, controlo de versões, testes, CI/CD. Já liderei equipas, orientei engenheiros júnior, lidei com clientes e fiz suporte de piquete 24/7. Nerd por espaço, entusiasta em IA. Fluente em inglês e português, francês B1 e em evolução.<br /><br /><strong>TL;DR: </strong> Python, CI/CD, Linux, Redes, Sistemas de Controlo<br /><br />"
+    "lead": "Olá, sou o David. <span class=\"wave\">👋</span><br /><br />Sou Engenheiro Eletrotécnico e de Computadores (MSc), especializado em desenvolvimento de software e sistemas de controlo. Ao longo da minha carreira construí sistemas de controlo para os aceleradores de partículas do CERN e para linhas de processamento de vacinas farmacêuticas. Sinto-me confortável entre código e hardware: software, infraestrutura, redes, controlo de versões, testes, CI/CD. Já liderei equipas, orientei engenheiros júnior, lidei com clientes e fiz suporte de piquete 24/7. Nerd por espaço, entusiasta em IA. Fluente em inglês e português, francês B2 e em evolução.<br /><br /><strong>TL;DR: </strong> Python, CI/CD, Linux, Redes, Sistemas de Controlo<br /><br />"
   },
   "experience": {
     "title": "Experiência",
@@ -127,7 +127,7 @@
       "items": {
         "item1": "Proficiente (fluente, C2) - <strong>Inglês</strong>",
         "item2": "Nativo (fluente, C2) - <strong>Português</strong>",
-        "item3": "Intermediário (B1) - <strong>Francês</strong>"
+        "item3": "Intermediário avançado (B2) - <strong>Francês</strong>"
       }
     },
     "software": {
