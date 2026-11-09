@@ -22,8 +22,9 @@ The content of this work (text, images, data) is licensed under a
 
 ## Running locally
 
-The page loads its text from `assets/i18n/*.json`, so it has to be served by a local web
-server. Opening `index.html` directly from disk shows empty sections.
+The page loads its translations from `assets/i18n/*.json`, so it has to be served by a local web
+server. Opening `index.html` directly from disk shows only the English text, without the email
+or language switching.
 
 ```bash
 ./run-local.sh
@@ -36,6 +37,18 @@ lite-server with `npm install`. Without Node.js/npm it falls back to Python's bu
 
 Edits to the translation files (`assets/i18n/*.json`) don't trigger a reload, so refresh the page
 to see them.
+
+### After editing the English text
+
+The English text is also written into `index.html`, so the page can be read without JavaScript.
+After editing `assets/i18n/en.json`, update the page and commit `index.html` along with it:
+
+```bash
+python3 scripts/prerender.py
+```
+
+Add `--check` to see whether `index.html` is out of date without changing anything. Edits to
+`fr.json` and `pt.json` don't need this.
 
 ### Using this repo as a starting point for your own portfolio
 
