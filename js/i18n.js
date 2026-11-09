@@ -118,6 +118,11 @@ class I18nController {
 
             element.innerHTML = translation;
         });
+
+        // The email is deliberately left out of the HTML and only added here.
+        document.querySelectorAll('[data-email]').forEach((link) => {
+            link.href = `mailto:${link.textContent.trim()}`;
+        });
     }
 
     resolve(dictionary, keyPath) {
